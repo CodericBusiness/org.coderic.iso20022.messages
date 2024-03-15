@@ -31,10 +31,10 @@ jobs:
         java-version: 17
         distribution: 'temurin'
         cache: maven
+        server-id: github
     - name: Test with Maven
       run: mvn clean test --file pom.xml
     - name: Deploy site
       run: mvn site --file pom.xml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
