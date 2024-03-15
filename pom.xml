@@ -22,14 +22,14 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:https://github.com/CodericLatam/org.coderic.model.btc.git</connection>
+    <connection>scm:git:https://github.com/CodericLatam/org.coderic.model.iso20022.git</connection>
     <developerConnection>${project.scm.connection}</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/CodericLatam/org.coderic.model.btc.git</url>
+    <url>https://github.com/CodericLatam/org.coderic.model.iso20022.git</url>
   </scm>
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/CodericLatam/org.coderic.model.btc/issues</url>
+    <url>https://github.com/CodericLatam/org.coderic.model.iso20022/issues</url>
   </issueManagement>
   <developers>
     <developer>
