@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 03:09:47 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:fxtr.038.001.01">
+    <schemaBindings map="false">
+      <package name="org.coderic.model.iso20022.fxtr"/>
+    </schemaBindings>
+    <bindings scd="~tns:Document">
+      <class ref="org.coderic.model.iso20022.fxtr.Document"/>
+    </bindings>
+    <bindings scd="~tns:AdditionalInformation5">
+      <class ref="org.coderic.model.iso20022.fxtr.AdditionalInformation5"/>
+    </bindings>
+    <bindings scd="~tns:ForeignExchangeTradeConfirmationStatusAdviceAcknowledgementV01">
+      <class ref="org.coderic.model.iso20022.fxtr.ForeignExchangeTradeConfirmationStatusAdviceAcknowledgementV01"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification1">
+      <class ref="org.coderic.model.iso20022.fxtr.GenericIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:MarketIdentification1Choice">
+      <class ref="org.coderic.model.iso20022.fxtr.MarketIdentification1Choice"/>
+    </bindings>
+    <bindings scd="~tns:MarketIdentification88">
+      <class ref="org.coderic.model.iso20022.fxtr.MarketIdentification88"/>
+    </bindings>
+    <bindings scd="~tns:MarketType13Choice">
+      <class ref="org.coderic.model.iso20022.fxtr.MarketType13Choice"/>
+    </bindings>
+    <bindings scd="~tns:MessageIdentification1">
+      <class ref="org.coderic.model.iso20022.fxtr.MessageIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryData1">
+      <class ref="org.coderic.model.iso20022.fxtr.SupplementaryData1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryDataEnvelope1">
+      <class ref="org.coderic.model.iso20022.fxtr.SupplementaryDataEnvelope1"/>
+    </bindings>
+    <bindings scd="~tns:AffirmStatus1Code">
+      <typesafeEnumClass ref="org.coderic.model.iso20022.fxtr.AffirmStatus1Code"/>
+    </bindings>
+    <bindings scd="~tns:MarketType8Code">
+      <typesafeEnumClass ref="org.coderic.model.iso20022.fxtr.MarketType8Code"/>
+    </bindings>
+    <bindings scd="~tns:TradeConfirmationStatus1Code">
+      <typesafeEnumClass ref="org.coderic.model.iso20022.fxtr.TradeConfirmationStatus1Code"/>
+    </bindings>
+    <bindings scd="~tns:TradingModeType1Code">
+      <typesafeEnumClass ref="org.coderic.model.iso20022.fxtr.TradingModeType1Code"/>
+    </bindings>
+  </bindings>
+</bindings>
+
