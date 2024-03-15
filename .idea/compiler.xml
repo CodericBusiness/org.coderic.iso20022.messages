@@ -6,7 +6,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="iso20022" />
+        <module name="cafr" />
+        <module name="auth" />
+        <module name="reda" />
+        <module name="cafm" />
+        <module name="semt" />
+        <module name="secl" />
+        <module name="caaa" />
+        <module name="head" />
+        <module name="tsmt" />
+        <module name="sese" />
+        <module name="admi" />
+        <module name="tsin" />
+        <module name="casr" />
+        <module name="casp" />
+        <module name="pacs" />
+        <module name="colr" />
+        <module name="fxtr" />
+        <module name="pain" />
+        <module name="acmt" />
+        <module name="caam" />
+        <module name="setr" />
+        <module name="camt" />
+        <module name="cain" />
+        <module name="caad" />
+        <module name="remt" />
+        <module name="core" />
+        <module name="canm" />
+        <module name="catp" />
+        <module name="cafc" />
+        <module name="tsrv" />
+        <module name="seev" />
+        <module name="catm" />
       </profile>
     </annotationProcessing>
   </component>

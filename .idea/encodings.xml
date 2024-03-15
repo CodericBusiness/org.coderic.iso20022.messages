@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/acmt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acmt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/caaa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/caaa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/caad/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/caad/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/caam/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/caam/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cafc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cafc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cafm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cafm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cafr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cafr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/camt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/canm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/casp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/casp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/casr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/casr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/catm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/catm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/catp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/catp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/colr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/colr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fxtr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fxtr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/head/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/head/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pacs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pacs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reda/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reda/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/secl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/secl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seev/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seev/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sese/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sese/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/setr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/setr/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tsin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tsin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tsmt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tsmt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tsrv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tsrv/src/main/resources" charset="UTF-8" />
   </component>
 </project>
