@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="${artifactId}"
+<project name="${project.name}"
   xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
   <bannerLeft>
-    <name>${artifactId}</name>
+    <name>${project.name}</name>
     <src>https://maven.apache.org/images/apache-maven-project.png</src>
     <href>https://www.apache.org/</href>
   </bannerLeft>
@@ -13,17 +13,31 @@
     <src>https://maven.apache.org/images/maven-logo-black-on-white.png</src>
     <href>https://maven.apache.org/</href>
   </bannerRight>
-
+  <poweredBy>
+    <logo name="Coderic" href="https://coderic.org/" img="/images/logo.png" position="center" width="80%" title="Coderic" />
+  </poweredBy>
   <skin>
     <groupId>org.apache.maven.skins</groupId>
     <artifactId>maven-fluido-skin</artifactId>
-    <version>1.7</version>
+    <version>1.11.1</version>
   </skin>
-
+  <custom>
+    <fluidoSkin>
+      <!--profile>(pre-release|sandbox|retired)</profile-->
+      <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+      <gitHub>
+        <projectId>CodericBusiness/org.coderic.model.iso20022</projectId>
+        <ribbonOrientation>right</ribbonOrientation>
+        <ribbonColor>orange</ribbonColor>
+      </gitHub>
+    </fluidoSkin>
+  </custom>
+  <edit>${project.scm.url}/edit/master/</edit>
   <body>
     <links>
-      <item name="Apache" href="http://www.apache.org/" />
-      <item name="Maven" href="https://maven.apache.org/"/>
+      <item name="Repository" href="${project.scm.url}" />
+      <item name="Swift" href="https://www.swift.com/" />
+      <item name="ISO 20022" href="https://www.iso20022.org/"/>
     </links>
 
     <menu name="Examples">
@@ -33,7 +47,11 @@
       <item name="Markdown with Velocity Example" href="markdown-velocity.html"/>
       <item name="Xdoc Example" href="xdoc.html"/>
     </menu>
-
+    <menu name="Related links">
+      <item name="Semantic Versioning" href="https://semver.org/lang/es/" />
+      <item name="Maven" href="https://maven.apache.org/" />
+      <item name="Java" href="https://www.javainuse.com/" />
+    </menu>
     <menu ref="reports" />
   </body>
 </project>
