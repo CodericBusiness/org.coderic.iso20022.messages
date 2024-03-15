@@ -31,7 +31,6 @@
         <module name="cain" />
         <module name="caad" />
         <module name="remt" />
-        <module name="core" />
         <module name="canm" />
         <module name="catp" />
         <module name="cafc" />
@@ -40,5 +39,8 @@
         <module name="catm" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

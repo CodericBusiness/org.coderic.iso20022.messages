@@ -198,7 +198,7 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
-          <locales>en,fr</locales>
+          <locales>en,es</locales>
         </configuration>
       </plugin>
     </plugins>
@@ -227,7 +227,6 @@
     </plugins>
   </reporting>
   <modules>
-    <module>core</module>
     <module>modules/acmt</module>
     <module>modules/admi</module>
     <module>modules/auth</module>

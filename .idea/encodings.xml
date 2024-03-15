@@ -41,6 +41,68 @@
     <file url="file://$PROJECT_DIR$/fxtr/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/head/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/head/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/acmt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/acmt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/admi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/admi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/caaa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/caaa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/caad/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/caad/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/caam/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/caam/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/cafc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/cafc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/cafm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/cafm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/cafr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/cafr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/cain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/cain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/camt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/camt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/canm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/canm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/casp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/casp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/casr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/casr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/catm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/catm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/catp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/catp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/colr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/colr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/fxtr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/fxtr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/head/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/head/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/pacs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/pacs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/pain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/pain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/reda/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/reda/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/remt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/remt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/secl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/secl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/seev/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/seev/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/semt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/semt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/sese/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/sese/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/setr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/setr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/tsin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/tsin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/tsmt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/tsmt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/tsrv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/tsrv/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pacs/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pacs/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pain/src/main/java" charset="UTF-8" />
