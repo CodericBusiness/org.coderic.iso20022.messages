@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.coderic.model</groupId>
+    <artifactId>iso20022</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <relativePath>../../</relativePath>
+  </parent>
+  
+  
+  <artifactId>cafr</artifactId>
+  <version>4.1.2</version>
+  <name>cafr: Fraud Reporting and Disposition</name>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jaxb2-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <id>xjc</id>
+            <goals>
+              <goal>xjc</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <packageName>org.coderic.model.iso20022.cafr</packageName>
+          <sources>
+            <source>${project.basedir}/src/main/xsd/cafr/cafr.004.001.02.xsd</source>
+          </sources>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

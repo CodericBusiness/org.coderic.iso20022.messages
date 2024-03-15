@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.coderic.model</groupId>
   <artifactId>iso20022</artifactId>
@@ -214,6 +212,13 @@
           <show>public</show>
         </configuration>
       </plugin>
+
+      <plugin>
+        <artifactId>maven-site-plugin</artifactId>
+        <configuration>
+          <locales>en,fr</locales>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
   <reporting>
@@ -234,40 +239,43 @@
           <show>public</show>
         </configuration>
       </plugin>
+      <plugin>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+      </plugin>
     </plugins>
   </reporting>
   <modules>
     <module>core</module>
-    <module>acmt</module>
-    <module>admi</module>
-    <module>auth</module>
-    <module>caaa</module>
-    <module>caad</module>
-    <module>caam</module>
-    <module>cafc</module>
-    <module>cafm</module>
-    <module>cafr</module>
-    <module>cain</module>
-    <module>camt</module>
-    <module>canm</module>
-    <module>casp</module>
-    <module>casr</module>
-    <module>catm</module>
-    <module>catp</module>
-    <module>colr</module>
-    <module>fxtr</module>
-    <module>head</module>
-    <module>pacs</module>
-    <module>pain</module>
-    <module>reda</module>
-    <module>remt</module>
-    <module>secl</module>
-    <module>seev</module>
-    <module>semt</module>
-    <module>sese</module>
-    <module>setr</module>
-    <module>tsin</module>
-    <module>tsmt</module>
-    <module>tsrv</module>
+    <module>modules/acmt</module>
+    <module>modules/admi</module>
+    <module>modules/auth</module>
+    <module>modules/caaa</module>
+    <module>modules/caad</module>
+    <module>modules/caam</module>
+    <module>modules/cafc</module>
+    <module>modules/cafm</module>
+    <module>modules/cafr</module>
+    <module>modules/cain</module>
+    <module>modules/camt</module>
+    <module>modules/canm</module>
+    <module>modules/casp</module>
+    <module>modules/casr</module>
+    <module>modules/catm</module>
+    <module>modules/catp</module>
+    <module>modules/colr</module>
+    <module>modules/fxtr</module>
+    <module>modules/head</module>
+    <module>modules/pacs</module>
+    <module>modules/pain</module>
+    <module>modules/reda</module>
+    <module>modules/remt</module>
+    <module>modules/secl</module>
+    <module>modules/seev</module>
+    <module>modules/semt</module>
+    <module>modules/sese</module>
+    <module>modules/setr</module>
+    <module>modules/tsin</module>
+    <module>modules/tsmt</module>
+    <module>modules/tsrv</module>
   </modules>
 </project>
