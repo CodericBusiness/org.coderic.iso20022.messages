@@ -211,7 +211,6 @@
           <show>public</show>
         </configuration>
       </plugin>
-
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
