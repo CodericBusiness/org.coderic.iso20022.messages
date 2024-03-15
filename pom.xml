@@ -7,7 +7,7 @@
   <packaging>pom</packaging>
   <name>ISO 20022 External Codes on JAXB-2 for WS</name>
   <description>ISO 20022 External Codes Schema Specification on Jaxb for WS</description>
-  <url>https://CodericLatam.github.io/org.coderic.model.iso20022</url>
+  <url>https://CodericBusiness.github.io/org.coderic.model.iso20022</url>
   <organization>
     <name>Coderic</name>
     <url>https://coderic.org/</url>
@@ -20,14 +20,14 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:https://github.com/CodericLatam/org.coderic.model.iso20022.git</connection>
+    <connection>scm:git:https://github.com/CodericBusiness/org.coderic.model.iso20022.git</connection>
     <developerConnection>${project.scm.connection}</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/CodericLatam/org.coderic.model.iso20022.git</url>
+    <url>https://github.com/CodericBusiness/org.coderic.model.iso20022.git</url>
   </scm>
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/CodericLatam/org.coderic.model.iso20022/issues</url>
+    <url>https://github.com/CodericBusiness/org.coderic.model.iso20022/issues</url>
   </issueManagement>
   <developers>
     <developer>
