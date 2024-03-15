@@ -13,7 +13,13 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 jobs:
   build:
     runs-on: ubuntu-latest
