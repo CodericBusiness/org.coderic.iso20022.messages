@@ -34,14 +34,7 @@ jobs:
     - name: Test with Maven
       run: mvn clean test --file pom.xml
     - name: Deploy site
-      run: mvn clean site --file pom.xml
-    - name: Setup Pages
-      uses: actions/configure-pages@v4
-    - name: Upload Artifacts
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./target/site
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+      run: mvn site --file pom.xml
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
