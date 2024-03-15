@@ -10,8 +10,8 @@
   </bannerLeft>
 
   <bannerRight>
-    <src>https://maven.apache.org/images/maven-logo-black-on-white.png</src>
-    <href>https://maven.apache.org/</href>
+    <src>https://coderic.org/assets/img/logo.png</src>
+    <href>https://coderic.org/</href>
   </bannerRight>
   <poweredBy>
     <logo name="Coderic" href="https://coderic.org/" img="https://business.coderic.org/org.coderic.model.iso20022/images/logo.png" position="center" width="80%" title="Coderic" />
