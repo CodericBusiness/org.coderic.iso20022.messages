@@ -9,8 +9,30 @@
   </parent>
   
   <artifactId>caaa</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>27.1.1</version>
   <name>caaa</name>
-  
-  
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jaxb2-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <id>xjc</id>
+            <goals>
+              <goal>xjc</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <packageName>org.coderic.model.iso20022.caaa</packageName>
+          <sources>
+            <source>${project.basedir}/src/main/xsd/caaa/caaa.027.001.01.xsd</source>
+          </sources>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

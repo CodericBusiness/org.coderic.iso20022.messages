@@ -9,8 +9,29 @@
   </parent>
   
   <artifactId>seev</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>53.1.2</version>
   <name>seev</name>
-  
-  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jaxb2-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <id>xjc</id>
+            <goals>
+              <goal>xjc</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <packageName>org.coderic.model.iso20022.seev</packageName>
+          <sources>
+            <source>${project.basedir}/src/main/xsd/seev/seev.053.001.02.xsd</source>
+          </sources>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

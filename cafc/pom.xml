@@ -9,8 +9,31 @@
   </parent>
   
   <artifactId>cafc</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>2.1.2</version>
   <name>cafc</name>
-  
-  
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jaxb2-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <id>xjc</id>
+            <goals>
+              <goal>xjc</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <packageName>org.coderic.model.iso20022.cafc</packageName>
+          <sources>
+            <source>${project.basedir}/src/main/xsd/cafc/cafc.002.001.02.xsd</source>
+          </sources>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
