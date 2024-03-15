@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 06:13:14 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:acmt.037.001.02">
+    <schemaBindings map="false">
+      <package name="org.coderic.iso20022.externalcodes.acmt"/>
+    </schemaBindings>
+    <bindings scd="~tns:Document">
+      <class ref="org.coderic.iso20022.externalcodes.acmt.Document"/>
+    </bindings>
+    <bindings scd="~tns:AccountSwitchDetails1">
+      <class ref="org.coderic.iso20022.externalcodes.acmt.AccountSwitchDetails1"/>
+    </bindings>
+    <bindings scd="~tns:AccountSwitchTechnicalRejectionV02">
+      <class ref="org.coderic.iso20022.externalcodes.acmt.AccountSwitchTechnicalRejectionV02"/>
+    </bindings>
+    <bindings scd="~tns:MessageIdentification1">
+      <class ref="org.coderic.iso20022.externalcodes.acmt.MessageIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:ResponseDetails1">
+      <class ref="org.coderic.iso20022.externalcodes.acmt.ResponseDetails1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryData1">
+      <class ref="org.coderic.iso20022.externalcodes.acmt.SupplementaryData1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryDataEnvelope1">
+      <class ref="org.coderic.iso20022.externalcodes.acmt.SupplementaryDataEnvelope1"/>
+    </bindings>
+    <bindings scd="~tns:BalanceTransferWindow1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.acmt.BalanceTransferWindow1Code"/>
+    </bindings>
+    <bindings scd="~tns:SwitchStatus1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.acmt.SwitchStatus1Code"/>
+    </bindings>
+    <bindings scd="~tns:SwitchType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.acmt.SwitchType1Code"/>
+    </bindings>
+  </bindings>
+</bindings>
+

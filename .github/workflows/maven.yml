@@ -24,56 +24,56 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up JDK 17
-      uses: actions/setup-java@v4
-      with:
-        java-version: 17
-        distribution: 'temurin'
-        cache: maven
-    - name: Test with Maven
-      run: mvn clean test --file pom.xml
-    - name: Deploy site
-      run: mvn clean site --file pom.xml
-    - name: Move sites
-      run: |
-        mv modules/acmt/target/site target/site/acmt
-        mv modules/admi/target/site target/site/admi
-        mv modules/auth/target/site target/site/auth
-        mv modules/caaa/target/site target/site/caaa
-        mv modules/caad/target/site target/site/caad
-        mv modules/caam/target/site target/site/caam
-        mv modules/cafc/target/site target/site/cafc
-        mv modules/cafm/target/site target/site/cafm
-        mv modules/cafr/target/site target/site/cafr
-        mv modules/cain/target/site target/site/cain
-        mv modules/camt/target/site target/site/camt
-        mv modules/canm/target/site target/site/canm
-        mv modules/casp/target/site target/site/casp
-        mv modules/casr/target/site target/site/casr
-        mv modules/catm/target/site target/site/catm
-        mv modules/catp/target/site target/site/catp
-        mv modules/colr/target/site target/site/colr
-        mv modules/fxtr/target/site target/site/fxtr
-        mv modules/head/target/site target/site/head
-        mv modules/pacs/target/site target/site/pacs
-        mv modules/pain/target/site target/site/pain
-        mv modules/reda/target/site target/site/reda
-        mv modules/remt/target/site target/site/remt
-        mv modules/secl/target/site target/site/secl
-        mv modules/seev/target/site target/site/seev
-        mv modules/semt/target/site target/site/semt
-        mv modules/sese/target/site target/site/sese
-        mv modules/setr/target/site target/site/setr
-        mv modules/tsin/target/site target/site/tsin
-        mv modules/tsmt/target/site target/site/tsmt
-        mv modules/tsrv/target/site target/site/tsrv
-    - name: Setup Pages
-      uses: actions/configure-pages@v4
-    - name: Upload Artifacts
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./target/site
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: 17
+          distribution: 'temurin'
+          cache: maven
+      - name: Test with Maven
+        run: mvn clean test --file pom.xml
+      - name: Deploy site
+        run: mvn clean site --file pom.xml
+      - name: Move sites
+        run: |
+          mv modules/acmt/target/site target/site/acmt
+          mv modules/admi/target/site target/site/admi
+          mv modules/auth/target/site target/site/auth
+          mv modules/caaa/target/site target/site/caaa
+          mv modules/caad/target/site target/site/caad
+          mv modules/caam/target/site target/site/caam
+          mv modules/cafc/target/site target/site/cafc
+          mv modules/cafm/target/site target/site/cafm
+          mv modules/cafr/target/site target/site/cafr
+          mv modules/cain/target/site target/site/cain
+          mv modules/camt/target/site target/site/camt
+          mv modules/canm/target/site target/site/canm
+          mv modules/casp/target/site target/site/casp
+          mv modules/casr/target/site target/site/casr
+          mv modules/catm/target/site target/site/catm
+          mv modules/catp/target/site target/site/catp
+          mv modules/colr/target/site target/site/colr
+          mv modules/fxtr/target/site target/site/fxtr
+          mv modules/head/target/site target/site/head
+          mv modules/pacs/target/site target/site/pacs
+          mv modules/pain/target/site target/site/pain
+          mv modules/reda/target/site target/site/reda
+          mv modules/remt/target/site target/site/remt
+          mv modules/secl/target/site target/site/secl
+          mv modules/seev/target/site target/site/seev
+          mv modules/semt/target/site target/site/semt
+          mv modules/sese/target/site target/site/sese
+          mv modules/setr/target/site target/site/setr
+          mv modules/tsin/target/site target/site/tsin
+          mv modules/tsmt/target/site target/site/tsmt
+          mv modules/tsrv/target/site target/site/tsrv
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./target/site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

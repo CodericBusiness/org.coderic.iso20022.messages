@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 06:13:40 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:secl.010.001.03">
+    <schemaBindings map="false">
+      <package name="org.coderic.iso20022.externalcodes.secl"/>
+    </schemaBindings>
+    <bindings scd="~tns:Document">
+      <class ref="org.coderic.iso20022.externalcodes.secl.Document"/>
+    </bindings>
+    <bindings scd="~tns:AccountIdentification1">
+      <class ref="org.coderic.iso20022.externalcodes.secl.AccountIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:AccountIdentification26">
+      <class ref="org.coderic.iso20022.externalcodes.secl.AccountIdentification26"/>
+    </bindings>
+    <bindings scd="~tns:ActiveCurrencyAndAmount">
+      <class ref="org.coderic.iso20022.externalcodes.secl.ActiveCurrencyAndAmount"/>
+    </bindings>
+    <bindings scd="~tns:ActiveOrHistoricCurrencyAnd13DecimalAmount">
+      <class ref="org.coderic.iso20022.externalcodes.secl.ActiveOrHistoricCurrencyAnd13DecimalAmount"/>
+    </bindings>
+    <bindings scd="~tns:ActiveOrHistoricCurrencyAndAmount">
+      <class ref="org.coderic.iso20022.externalcodes.secl.ActiveOrHistoricCurrencyAndAmount"/>
+    </bindings>
+    <bindings scd="~tns:AlternatePartyIdentification4">
+      <class ref="org.coderic.iso20022.externalcodes.secl.AlternatePartyIdentification4"/>
+    </bindings>
+    <bindings scd="~tns:AmountAndDirection27">
+      <class ref="org.coderic.iso20022.externalcodes.secl.AmountAndDirection27"/>
+    </bindings>
+    <bindings scd="~tns:ContactIdentification2">
+      <class ref="org.coderic.iso20022.externalcodes.secl.ContactIdentification2"/>
+    </bindings>
+    <bindings scd="~tns:DateAndDateTimeChoice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.DateAndDateTimeChoice"/>
+    </bindings>
+    <bindings scd="~tns:DateCode3Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.DateCode3Choice"/>
+    </bindings>
+    <bindings scd="~tns:DateFormat11Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.DateFormat11Choice"/>
+    </bindings>
+    <bindings scd="~tns:DeliveringPartiesAndAccount11">
+      <class ref="org.coderic.iso20022.externalcodes.secl.DeliveringPartiesAndAccount11"/>
+    </bindings>
+    <bindings scd="~tns:DeliveringPartiesAndAccount7">
+      <class ref="org.coderic.iso20022.externalcodes.secl.DeliveringPartiesAndAccount7"/>
+    </bindings>
+    <bindings scd="~tns:FinancialInstrumentQuantity1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.FinancialInstrumentQuantity1Choice"/>
+    </bindings>
+    <bindings scd="~tns:ForeignExchangeTerms17">
+      <class ref="org.coderic.iso20022.externalcodes.secl.ForeignExchangeTerms17"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification20">
+      <class ref="org.coderic.iso20022.externalcodes.secl.GenericIdentification20"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification29">
+      <class ref="org.coderic.iso20022.externalcodes.secl.GenericIdentification29"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification30">
+      <class ref="org.coderic.iso20022.externalcodes.secl.GenericIdentification30"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification40">
+      <class ref="org.coderic.iso20022.externalcodes.secl.GenericIdentification40"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification58">
+      <class ref="org.coderic.iso20022.externalcodes.secl.GenericIdentification58"/>
+    </bindings>
+    <bindings scd="~tns:IdentificationSource3Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.IdentificationSource3Choice"/>
+    </bindings>
+    <bindings scd="~tns:IdentificationType6Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.IdentificationType6Choice"/>
+    </bindings>
+    <bindings scd="~tns:MarketIdentification1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.MarketIdentification1Choice"/>
+    </bindings>
+    <bindings scd="~tns:MarketIdentification84">
+      <class ref="org.coderic.iso20022.externalcodes.secl.MarketIdentification84"/>
+    </bindings>
+    <bindings scd="~tns:MarketType8Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.MarketType8Choice"/>
+    </bindings>
+    <bindings scd="~tns:NameAndAddress5">
+      <class ref="org.coderic.iso20022.externalcodes.secl.NameAndAddress5"/>
+    </bindings>
+    <bindings scd="~tns:NameAndAddress6">
+      <class ref="org.coderic.iso20022.externalcodes.secl.NameAndAddress6"/>
+    </bindings>
+    <bindings scd="~tns:ObligationType1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.ObligationType1Choice"/>
+    </bindings>
+    <bindings scd="~tns:OtherIdentification1">
+      <class ref="org.coderic.iso20022.externalcodes.secl.OtherIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:Pagination">
+      <class ref="org.coderic.iso20022.externalcodes.secl.Pagination"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentification33Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.PartyIdentification33Choice"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentification34Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.PartyIdentification34Choice"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentification35Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.PartyIdentification35Choice"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentificationAndAccount102">
+      <class ref="org.coderic.iso20022.externalcodes.secl.PartyIdentificationAndAccount102"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentificationAndAccount31">
+      <class ref="org.coderic.iso20022.externalcodes.secl.PartyIdentificationAndAccount31"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentificationAndAccount32">
+      <class ref="org.coderic.iso20022.externalcodes.secl.PartyIdentificationAndAccount32"/>
+    </bindings>
+    <bindings scd="~tns:PartyTextInformation1">
+      <class ref="org.coderic.iso20022.externalcodes.secl.PartyTextInformation1"/>
+    </bindings>
+    <bindings scd="~tns:PostalAddress1">
+      <class ref="org.coderic.iso20022.externalcodes.secl.PostalAddress1"/>
+    </bindings>
+    <bindings scd="~tns:PostalAddress2">
+      <class ref="org.coderic.iso20022.externalcodes.secl.PostalAddress2"/>
+    </bindings>
+    <bindings scd="~tns:Price4">
+      <class ref="org.coderic.iso20022.externalcodes.secl.Price4"/>
+    </bindings>
+    <bindings scd="~tns:PriceRateOrAmountChoice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.PriceRateOrAmountChoice"/>
+    </bindings>
+    <bindings scd="~tns:ReceivingPartiesAndAccount11">
+      <class ref="org.coderic.iso20022.externalcodes.secl.ReceivingPartiesAndAccount11"/>
+    </bindings>
+    <bindings scd="~tns:ReceivingPartiesAndAccount7">
+      <class ref="org.coderic.iso20022.externalcodes.secl.ReceivingPartiesAndAccount7"/>
+    </bindings>
+    <bindings scd="~tns:Reference19">
+      <class ref="org.coderic.iso20022.externalcodes.secl.Reference19"/>
+    </bindings>
+    <bindings scd="~tns:Report5">
+      <class ref="org.coderic.iso20022.externalcodes.secl.Report5"/>
+    </bindings>
+    <bindings scd="~tns:ReportParameters4">
+      <class ref="org.coderic.iso20022.externalcodes.secl.ReportParameters4"/>
+    </bindings>
+    <bindings scd="~tns:SafekeepingPlaceFormat7Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SafekeepingPlaceFormat7Choice"/>
+    </bindings>
+    <bindings scd="~tns:SafekeepingPlaceTypeAndAnyBICIdentifier1">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SafekeepingPlaceTypeAndAnyBICIdentifier1"/>
+    </bindings>
+    <bindings scd="~tns:SafekeepingPlaceTypeAndText1">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SafekeepingPlaceTypeAndText1"/>
+    </bindings>
+    <bindings scd="~tns:SecuritiesAccount18">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SecuritiesAccount18"/>
+    </bindings>
+    <bindings scd="~tns:SecuritiesAccount19">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SecuritiesAccount19"/>
+    </bindings>
+    <bindings scd="~tns:SecurityIdentification14">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SecurityIdentification14"/>
+    </bindings>
+    <bindings scd="~tns:SettlementObligation5">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SettlementObligation5"/>
+    </bindings>
+    <bindings scd="~tns:SettlementObligation8">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SettlementObligation8"/>
+    </bindings>
+    <bindings scd="~tns:SettlementObligationReportV03">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SettlementObligationReportV03"/>
+    </bindings>
+    <bindings scd="~tns:SettlementParties2Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SettlementParties2Choice"/>
+    </bindings>
+    <bindings scd="~tns:SettlementParties4Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SettlementParties4Choice"/>
+    </bindings>
+    <bindings scd="~tns:SimpleIdentificationInformation">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SimpleIdentificationInformation"/>
+    </bindings>
+    <bindings scd="~tns:SimpleIdentificationInformation4">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SimpleIdentificationInformation4"/>
+    </bindings>
+    <bindings scd="~tns:SubAccount1">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SubAccount1"/>
+    </bindings>
+    <bindings scd="~tns:SubAccount4">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SubAccount4"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryData1">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SupplementaryData1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryDataEnvelope1">
+      <class ref="org.coderic.iso20022.externalcodes.secl.SupplementaryDataEnvelope1"/>
+    </bindings>
+    <bindings scd="~tns:TradeDate3Choice">
+      <class ref="org.coderic.iso20022.externalcodes.secl.TradeDate3Choice"/>
+    </bindings>
+    <bindings scd="~tns:AddressType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.AddressType2Code"/>
+    </bindings>
+    <bindings scd="~tns:ClearingAccountType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.ClearingAccountType1Code"/>
+    </bindings>
+    <bindings scd="~tns:CreditDebitCode">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.CreditDebitCode"/>
+    </bindings>
+    <bindings scd="~tns:DateType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.DateType1Code"/>
+    </bindings>
+    <bindings scd="~tns:DeliveryReceiptType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.DeliveryReceiptType2Code"/>
+    </bindings>
+    <bindings scd="~tns:MarketType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.MarketType2Code"/>
+    </bindings>
+    <bindings scd="~tns:NamePrefix1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.NamePrefix1Code"/>
+    </bindings>
+    <bindings scd="~tns:ObligationType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.ObligationType1Code"/>
+    </bindings>
+    <bindings scd="~tns:PriceValueType7Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.PriceValueType7Code"/>
+    </bindings>
+    <bindings scd="~tns:ReceiveDelivery1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.ReceiveDelivery1Code"/>
+    </bindings>
+    <bindings scd="~tns:SafekeepingPlace1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.SafekeepingPlace1Code"/>
+    </bindings>
+    <bindings scd="~tns:SafekeepingPlace3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.SafekeepingPlace3Code"/>
+    </bindings>
+    <bindings scd="~tns:TradingCapacity5Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.TradingCapacity5Code"/>
+    </bindings>
+    <bindings scd="~tns:TypeOfIdentification1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.secl.TypeOfIdentification1Code"/>
+    </bindings>
+  </bindings>
+</bindings>
+

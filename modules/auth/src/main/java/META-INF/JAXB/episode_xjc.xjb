@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 06:13:17 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:auth.113.001.01">
+    <schemaBindings map="false">
+      <package name="org.coderic.iso20022.externalcodes.auth"/>
+    </schemaBindings>
+    <bindings scd="~tns:Document">
+      <class ref="org.coderic.iso20022.externalcodes.auth.Document"/>
+    </bindings>
+    <bindings scd="~tns:ActiveCurrencyAnd13DecimalAmount">
+      <class ref="org.coderic.iso20022.externalcodes.auth.ActiveCurrencyAnd13DecimalAmount"/>
+    </bindings>
+    <bindings scd="~tns:ActiveOrHistoricCurrencyAndAmount">
+      <class ref="org.coderic.iso20022.externalcodes.auth.ActiveOrHistoricCurrencyAndAmount"/>
+    </bindings>
+    <bindings scd="~tns:AmountAndDirection53">
+      <class ref="org.coderic.iso20022.externalcodes.auth.AmountAndDirection53"/>
+    </bindings>
+    <bindings scd="~tns:AmountAndDirection61">
+      <class ref="org.coderic.iso20022.externalcodes.auth.AmountAndDirection61"/>
+    </bindings>
+    <bindings scd="~tns:AuctionData2">
+      <class ref="org.coderic.iso20022.externalcodes.auth.AuctionData2"/>
+    </bindings>
+    <bindings scd="~tns:CancelOrderReport1">
+      <class ref="org.coderic.iso20022.externalcodes.auth.CancelOrderReport1"/>
+    </bindings>
+    <bindings scd="~tns:DateTimePeriod1">
+      <class ref="org.coderic.iso20022.externalcodes.auth.DateTimePeriod1"/>
+    </bindings>
+    <bindings scd="~tns:ExecutingParty2Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.ExecutingParty2Choice"/>
+    </bindings>
+    <bindings scd="~tns:FinancialInstrument99Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.FinancialInstrument99Choice"/>
+    </bindings>
+    <bindings scd="~tns:FinancialInstrumentQuantity25Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.FinancialInstrumentQuantity25Choice"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification30">
+      <class ref="org.coderic.iso20022.externalcodes.auth.GenericIdentification30"/>
+    </bindings>
+    <bindings scd="~tns:GenericPersonIdentification1">
+      <class ref="org.coderic.iso20022.externalcodes.auth.GenericPersonIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:MinimumExecutable1">
+      <class ref="org.coderic.iso20022.externalcodes.auth.MinimumExecutable1"/>
+    </bindings>
+    <bindings scd="~tns:NewOrderReport2">
+      <class ref="org.coderic.iso20022.externalcodes.auth.NewOrderReport2"/>
+    </bindings>
+    <bindings scd="~tns:OrderBookReportV01">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderBookReportV01"/>
+    </bindings>
+    <bindings scd="~tns:OrderClassification2">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderClassification2"/>
+    </bindings>
+    <bindings scd="~tns:OrderData3">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderData3"/>
+    </bindings>
+    <bindings scd="~tns:OrderData4">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderData4"/>
+    </bindings>
+    <bindings scd="~tns:OrderEventType1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderEventType1Choice"/>
+    </bindings>
+    <bindings scd="~tns:OrderIdentification2">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderIdentification2"/>
+    </bindings>
+    <bindings scd="~tns:OrderInstructionData2">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderInstructionData2"/>
+    </bindings>
+    <bindings scd="~tns:OrderPriceData2">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderPriceData2"/>
+    </bindings>
+    <bindings scd="~tns:OrderPriority1">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderPriority1"/>
+    </bindings>
+    <bindings scd="~tns:OrderReport2Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderReport2Choice"/>
+    </bindings>
+    <bindings scd="~tns:OrderRestriction1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.OrderRestriction1Choice"/>
+    </bindings>
+    <bindings scd="~tns:Pagination1">
+      <class ref="org.coderic.iso20022.externalcodes.auth.Pagination1"/>
+    </bindings>
+    <bindings scd="~tns:Period11Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.Period11Choice"/>
+    </bindings>
+    <bindings scd="~tns:Period2">
+      <class ref="org.coderic.iso20022.externalcodes.auth.Period2"/>
+    </bindings>
+    <bindings scd="~tns:PersonIdentificationSchemeName1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.PersonIdentificationSchemeName1Choice"/>
+    </bindings>
+    <bindings scd="~tns:PersonOrOrganisation4Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.PersonOrOrganisation4Choice"/>
+    </bindings>
+    <bindings scd="~tns:SecuritiesMarketReportHeader3">
+      <class ref="org.coderic.iso20022.externalcodes.auth.SecuritiesMarketReportHeader3"/>
+    </bindings>
+    <bindings scd="~tns:SecuritiesTransactionPrice1">
+      <class ref="org.coderic.iso20022.externalcodes.auth.SecuritiesTransactionPrice1"/>
+    </bindings>
+    <bindings scd="~tns:SecuritiesTransactionPrice21Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.SecuritiesTransactionPrice21Choice"/>
+    </bindings>
+    <bindings scd="~tns:SecuritiesTransactionPrice2Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.SecuritiesTransactionPrice2Choice"/>
+    </bindings>
+    <bindings scd="~tns:SecuritiesTransactionPrice4Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.SecuritiesTransactionPrice4Choice"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryData1">
+      <class ref="org.coderic.iso20022.externalcodes.auth.SupplementaryData1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryDataEnvelope1">
+      <class ref="org.coderic.iso20022.externalcodes.auth.SupplementaryDataEnvelope1"/>
+    </bindings>
+    <bindings scd="~tns:TradingVenueIdentification1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.TradingVenueIdentification1Choice"/>
+    </bindings>
+    <bindings scd="~tns:TradingVenueIdentification2">
+      <class ref="org.coderic.iso20022.externalcodes.auth.TradingVenueIdentification2"/>
+    </bindings>
+    <bindings scd="~tns:TransactionData3">
+      <class ref="org.coderic.iso20022.externalcodes.auth.TransactionData3"/>
+    </bindings>
+    <bindings scd="~tns:ValidityPeriod1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.auth.ValidityPeriod1Choice"/>
+    </bindings>
+    <bindings scd="~tns:NoReasonCode">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.NoReasonCode"/>
+    </bindings>
+    <bindings scd="~tns:OrderEventType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.OrderEventType1Code"/>
+    </bindings>
+    <bindings scd="~tns:OrderRestrictionType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.OrderRestrictionType1Code"/>
+    </bindings>
+    <bindings scd="~tns:OrderStatus10Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.OrderStatus10Code"/>
+    </bindings>
+    <bindings scd="~tns:OrderStatus11Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.OrderStatus11Code"/>
+    </bindings>
+    <bindings scd="~tns:OrderType3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.OrderType3Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyExceptionType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.PartyExceptionType1Code"/>
+    </bindings>
+    <bindings scd="~tns:PassiveOrAgressiveType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.PassiveOrAgressiveType1Code"/>
+    </bindings>
+    <bindings scd="~tns:PriceStatus1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.PriceStatus1Code"/>
+    </bindings>
+    <bindings scd="~tns:RegulatoryTradingCapacity1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.RegulatoryTradingCapacity1Code"/>
+    </bindings>
+    <bindings scd="~tns:Side6Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.Side6Code"/>
+    </bindings>
+    <bindings scd="~tns:TradingVenue2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.TradingVenue2Code"/>
+    </bindings>
+    <bindings scd="~tns:ValidityPeriodType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.auth.ValidityPeriodType1Code"/>
+    </bindings>
+  </bindings>
+</bindings>
+

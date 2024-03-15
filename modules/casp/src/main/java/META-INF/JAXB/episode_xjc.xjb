@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 06:13:28 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:casp.017.001.06">
+    <schemaBindings map="false">
+      <package name="org.coderic.iso20022.externalcodes.casp"/>
+    </schemaBindings>
+    <bindings scd="~tns:Document">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Document"/>
+    </bindings>
+    <bindings scd="~tns:Acquirer10">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Acquirer10"/>
+    </bindings>
+    <bindings scd="~tns:AddressVerification1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.AddressVerification1"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification31">
+      <class ref="org.coderic.iso20022.externalcodes.casp.AlgorithmIdentification31"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification32">
+      <class ref="org.coderic.iso20022.externalcodes.casp.AlgorithmIdentification32"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification33">
+      <class ref="org.coderic.iso20022.externalcodes.casp.AlgorithmIdentification33"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification34">
+      <class ref="org.coderic.iso20022.externalcodes.casp.AlgorithmIdentification34"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification35">
+      <class ref="org.coderic.iso20022.externalcodes.casp.AlgorithmIdentification35"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification36">
+      <class ref="org.coderic.iso20022.externalcodes.casp.AlgorithmIdentification36"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticatedData10">
+      <class ref="org.coderic.iso20022.externalcodes.casp.AuthenticatedData10"/>
+    </bindings>
+    <bindings scd="~tns:CapturedSignature1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CapturedSignature1"/>
+    </bindings>
+    <bindings scd="~tns:CardDirectDebit2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CardDirectDebit2"/>
+    </bindings>
+    <bindings scd="~tns:CardPaymentContext30">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CardPaymentContext30"/>
+    </bindings>
+    <bindings scd="~tns:CardPaymentEnvironment80">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CardPaymentEnvironment80"/>
+    </bindings>
+    <bindings scd="~tns:Cardholder21">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Cardholder21"/>
+    </bindings>
+    <bindings scd="~tns:CardholderAuthentication17">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CardholderAuthentication17"/>
+    </bindings>
+    <bindings scd="~tns:CashAccountIdentification7Choice">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CashAccountIdentification7Choice"/>
+    </bindings>
+    <bindings scd="~tns:CertificateIssuer1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CertificateIssuer1"/>
+    </bindings>
+    <bindings scd="~tns:Check1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Check1"/>
+    </bindings>
+    <bindings scd="~tns:CommunicationAddress9">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CommunicationAddress9"/>
+    </bindings>
+    <bindings scd="~tns:CommunicationCharacteristics5">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CommunicationCharacteristics5"/>
+    </bindings>
+    <bindings scd="~tns:ContentInformationType38">
+      <class ref="org.coderic.iso20022.externalcodes.casp.ContentInformationType38"/>
+    </bindings>
+    <bindings scd="~tns:ContentInformationType39">
+      <class ref="org.coderic.iso20022.externalcodes.casp.ContentInformationType39"/>
+    </bindings>
+    <bindings scd="~tns:ContentInformationType40">
+      <class ref="org.coderic.iso20022.externalcodes.casp.ContentInformationType40"/>
+    </bindings>
+    <bindings scd="~tns:Creditor4">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Creditor4"/>
+    </bindings>
+    <bindings scd="~tns:CryptographicKey18">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CryptographicKey18"/>
+    </bindings>
+    <bindings scd="~tns:CustomerDevice3">
+      <class ref="org.coderic.iso20022.externalcodes.casp.CustomerDevice3"/>
+    </bindings>
+    <bindings scd="~tns:DateAndPlaceOfBirth1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DateAndPlaceOfBirth1"/>
+    </bindings>
+    <bindings scd="~tns:Debtor4">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Debtor4"/>
+    </bindings>
+    <bindings scd="~tns:DeviceDisplayResponse2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DeviceDisplayResponse2"/>
+    </bindings>
+    <bindings scd="~tns:DeviceInitialisationCardReaderResponse2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DeviceInitialisationCardReaderResponse2"/>
+    </bindings>
+    <bindings scd="~tns:DeviceInputResponse6">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DeviceInputResponse6"/>
+    </bindings>
+    <bindings scd="~tns:DevicePrintResponse1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DevicePrintResponse1"/>
+    </bindings>
+    <bindings scd="~tns:DeviceResponse7">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DeviceResponse7"/>
+    </bindings>
+    <bindings scd="~tns:DeviceSecureInputResponse6">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DeviceSecureInputResponse6"/>
+    </bindings>
+    <bindings scd="~tns:DeviceSendApplicationProtocolDataUnitCardReaderResponse1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DeviceSendApplicationProtocolDataUnitCardReaderResponse1"/>
+    </bindings>
+    <bindings scd="~tns:DeviceTransmitMessageResponse1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DeviceTransmitMessageResponse1"/>
+    </bindings>
+    <bindings scd="~tns:DigestedData6">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DigestedData6"/>
+    </bindings>
+    <bindings scd="~tns:DisplayCapabilities4">
+      <class ref="org.coderic.iso20022.externalcodes.casp.DisplayCapabilities4"/>
+    </bindings>
+    <bindings scd="~tns:EncapsulatedContent3">
+      <class ref="org.coderic.iso20022.externalcodes.casp.EncapsulatedContent3"/>
+    </bindings>
+    <bindings scd="~tns:EncryptedContent7">
+      <class ref="org.coderic.iso20022.externalcodes.casp.EncryptedContent7"/>
+    </bindings>
+    <bindings scd="~tns:EnvelopedData11">
+      <class ref="org.coderic.iso20022.externalcodes.casp.EnvelopedData11"/>
+    </bindings>
+    <bindings scd="~tns:ExternallyDefinedData5">
+      <class ref="org.coderic.iso20022.externalcodes.casp.ExternallyDefinedData5"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification176">
+      <class ref="org.coderic.iso20022.externalcodes.casp.GenericIdentification176"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification177">
+      <class ref="org.coderic.iso20022.externalcodes.casp.GenericIdentification177"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification186">
+      <class ref="org.coderic.iso20022.externalcodes.casp.GenericIdentification186"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification32">
+      <class ref="org.coderic.iso20022.externalcodes.casp.GenericIdentification32"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification36">
+      <class ref="org.coderic.iso20022.externalcodes.casp.GenericIdentification36"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification4">
+      <class ref="org.coderic.iso20022.externalcodes.casp.GenericIdentification4"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification48">
+      <class ref="org.coderic.iso20022.externalcodes.casp.GenericIdentification48"/>
+    </bindings>
+    <bindings scd="~tns:GenericInformation1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.GenericInformation1"/>
+    </bindings>
+    <bindings scd="~tns:Geolocation1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Geolocation1"/>
+    </bindings>
+    <bindings scd="~tns:GeolocationGeographicCoordinates1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.GeolocationGeographicCoordinates1"/>
+    </bindings>
+    <bindings scd="~tns:GeolocationUTMCoordinates1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.GeolocationUTMCoordinates1"/>
+    </bindings>
+    <bindings scd="~tns:Header41">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Header41"/>
+    </bindings>
+    <bindings scd="~tns:ICCResetData1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.ICCResetData1"/>
+    </bindings>
+    <bindings scd="~tns:InputResult6">
+      <class ref="org.coderic.iso20022.externalcodes.casp.InputResult6"/>
+    </bindings>
+    <bindings scd="~tns:InputResultData6">
+      <class ref="org.coderic.iso20022.externalcodes.casp.InputResultData6"/>
+    </bindings>
+    <bindings scd="~tns:IssuerAndSerialNumber2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.IssuerAndSerialNumber2"/>
+    </bindings>
+    <bindings scd="~tns:KEK9">
+      <class ref="org.coderic.iso20022.externalcodes.casp.KEK9"/>
+    </bindings>
+    <bindings scd="~tns:KEKIdentifier7">
+      <class ref="org.coderic.iso20022.externalcodes.casp.KEKIdentifier7"/>
+    </bindings>
+    <bindings scd="~tns:KeyTransport10">
+      <class ref="org.coderic.iso20022.externalcodes.casp.KeyTransport10"/>
+    </bindings>
+    <bindings scd="~tns:LoyaltyAccount3">
+      <class ref="org.coderic.iso20022.externalcodes.casp.LoyaltyAccount3"/>
+    </bindings>
+    <bindings scd="~tns:MandateRelatedInformation13">
+      <class ref="org.coderic.iso20022.externalcodes.casp.MandateRelatedInformation13"/>
+    </bindings>
+    <bindings scd="~tns:MemoryCharacteristics1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.MemoryCharacteristics1"/>
+    </bindings>
+    <bindings scd="~tns:MerchantToken2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.MerchantToken2"/>
+    </bindings>
+    <bindings scd="~tns:MobileData6">
+      <class ref="org.coderic.iso20022.externalcodes.casp.MobileData6"/>
+    </bindings>
+    <bindings scd="~tns:NameAndAddress6">
+      <class ref="org.coderic.iso20022.externalcodes.casp.NameAndAddress6"/>
+    </bindings>
+    <bindings scd="~tns:NetworkParameters7">
+      <class ref="org.coderic.iso20022.externalcodes.casp.NetworkParameters7"/>
+    </bindings>
+    <bindings scd="~tns:NetworkParameters9">
+      <class ref="org.coderic.iso20022.externalcodes.casp.NetworkParameters9"/>
+    </bindings>
+    <bindings scd="~tns:OnLinePIN11">
+      <class ref="org.coderic.iso20022.externalcodes.casp.OnLinePIN11"/>
+    </bindings>
+    <bindings scd="~tns:Organisation26">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Organisation26"/>
+    </bindings>
+    <bindings scd="~tns:Organisation41">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Organisation41"/>
+    </bindings>
+    <bindings scd="~tns:OriginatorInformation1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.OriginatorInformation1"/>
+    </bindings>
+    <bindings scd="~tns:OutputResult2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.OutputResult2"/>
+    </bindings>
+    <bindings scd="~tns:PackageType5">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PackageType5"/>
+    </bindings>
+    <bindings scd="~tns:Parameter12">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Parameter12"/>
+    </bindings>
+    <bindings scd="~tns:Parameter16">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Parameter16"/>
+    </bindings>
+    <bindings scd="~tns:Parameter17">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Parameter17"/>
+    </bindings>
+    <bindings scd="~tns:Parameter18">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Parameter18"/>
+    </bindings>
+    <bindings scd="~tns:Parameter7">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Parameter7"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentification178Choice">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PartyIdentification178Choice"/>
+    </bindings>
+    <bindings scd="~tns:PaymentCard35">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PaymentCard35"/>
+    </bindings>
+    <bindings scd="~tns:PaymentContext29">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PaymentContext29"/>
+    </bindings>
+    <bindings scd="~tns:PaymentTokenIdentifiers1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PaymentTokenIdentifiers1"/>
+    </bindings>
+    <bindings scd="~tns:PersonIdentification15">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PersonIdentification15"/>
+    </bindings>
+    <bindings scd="~tns:PhysicalInterfaceParameter1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PhysicalInterfaceParameter1"/>
+    </bindings>
+    <bindings scd="~tns:PlainCardData17">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PlainCardData17"/>
+    </bindings>
+    <bindings scd="~tns:PlainCardData22">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PlainCardData22"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteraction14">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PointOfInteraction14"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionCapabilities9">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PointOfInteractionCapabilities9"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionComponent15">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PointOfInteractionComponent15"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionComponentAssessment1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PointOfInteractionComponentAssessment1"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionComponentCharacteristics10">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PointOfInteractionComponentCharacteristics10"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionComponentIdentification2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PointOfInteractionComponentIdentification2"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionComponentStatus3">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PointOfInteractionComponentStatus3"/>
+    </bindings>
+    <bindings scd="~tns:PostalAddress2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PostalAddress2"/>
+    </bindings>
+    <bindings scd="~tns:PostalAddress22">
+      <class ref="org.coderic.iso20022.externalcodes.casp.PostalAddress22"/>
+    </bindings>
+    <bindings scd="~tns:Recipient13Choice">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Recipient13Choice"/>
+    </bindings>
+    <bindings scd="~tns:Recipient15Choice">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Recipient15Choice"/>
+    </bindings>
+    <bindings scd="~tns:RelativeDistinguishedName1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.RelativeDistinguishedName1"/>
+    </bindings>
+    <bindings scd="~tns:ResponseType11">
+      <class ref="org.coderic.iso20022.externalcodes.casp.ResponseType11"/>
+    </bindings>
+    <bindings scd="~tns:RetailerSaleEnvironment2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.RetailerSaleEnvironment2"/>
+    </bindings>
+    <bindings scd="~tns:SaleContext4">
+      <class ref="org.coderic.iso20022.externalcodes.casp.SaleContext4"/>
+    </bindings>
+    <bindings scd="~tns:SaleToPOIDeviceResponseV06">
+      <class ref="org.coderic.iso20022.externalcodes.casp.SaleToPOIDeviceResponseV06"/>
+    </bindings>
+    <bindings scd="~tns:SensitiveMobileData1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.SensitiveMobileData1"/>
+    </bindings>
+    <bindings scd="~tns:SignedData9">
+      <class ref="org.coderic.iso20022.externalcodes.casp.SignedData9"/>
+    </bindings>
+    <bindings scd="~tns:Signer8">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Signer8"/>
+    </bindings>
+    <bindings scd="~tns:SimpleIdentificationInformation4">
+      <class ref="org.coderic.iso20022.externalcodes.casp.SimpleIdentificationInformation4"/>
+    </bindings>
+    <bindings scd="~tns:StoredValueAccount2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.StoredValueAccount2"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryData1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.SupplementaryData1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryDataEnvelope1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.SupplementaryDataEnvelope1"/>
+    </bindings>
+    <bindings scd="~tns:Token1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Token1"/>
+    </bindings>
+    <bindings scd="~tns:Traceability8">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Traceability8"/>
+    </bindings>
+    <bindings scd="~tns:TrackData2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.TrackData2"/>
+    </bindings>
+    <bindings scd="~tns:TransactionVerificationResult4">
+      <class ref="org.coderic.iso20022.externalcodes.casp.TransactionVerificationResult4"/>
+    </bindings>
+    <bindings scd="~tns:Vehicle1">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Vehicle1"/>
+    </bindings>
+    <bindings scd="~tns:Vehicle2">
+      <class ref="org.coderic.iso20022.externalcodes.casp.Vehicle2"/>
+    </bindings>
+    <bindings scd="~tns:AddressType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.AddressType2Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm26Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.Algorithm26Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm27Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.Algorithm27Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm28Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.Algorithm28Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm29Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.Algorithm29Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm7Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.Algorithm7Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.Algorithm8Code"/>
+    </bindings>
+    <bindings scd="~tns:AmountUnit1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.AmountUnit1Code"/>
+    </bindings>
+    <bindings scd="~tns:AttendanceContext1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.AttendanceContext1Code"/>
+    </bindings>
+    <bindings scd="~tns:AttributeType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.AttributeType1Code"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticationEntity2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.AuthenticationEntity2Code"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticationMethod6Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.AuthenticationMethod6Code"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticationMethod8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.AuthenticationMethod8Code"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticationResult1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.AuthenticationResult1Code"/>
+    </bindings>
+    <bindings scd="~tns:BusinessArea2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.BusinessArea2Code"/>
+    </bindings>
+    <bindings scd="~tns:BytePadding1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.BytePadding1Code"/>
+    </bindings>
+    <bindings scd="~tns:CardDataReading5Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.CardDataReading5Code"/>
+    </bindings>
+    <bindings scd="~tns:CardDataReading8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.CardDataReading8Code"/>
+    </bindings>
+    <bindings scd="~tns:CardFallback1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.CardFallback1Code"/>
+    </bindings>
+    <bindings scd="~tns:CardIdentificationType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.CardIdentificationType1Code"/>
+    </bindings>
+    <bindings scd="~tns:CardProductType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.CardProductType1Code"/>
+    </bindings>
+    <bindings scd="~tns:CardholderVerificationCapability4Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.CardholderVerificationCapability4Code"/>
+    </bindings>
+    <bindings scd="~tns:CheckType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.CheckType1Code"/>
+    </bindings>
+    <bindings scd="~tns:ContentType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.ContentType2Code"/>
+    </bindings>
+    <bindings scd="~tns:CryptographicKeyType3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.CryptographicKeyType3Code"/>
+    </bindings>
+    <bindings scd="~tns:DocumentType7Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.DocumentType7Code"/>
+    </bindings>
+    <bindings scd="~tns:EncryptionFormat2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.EncryptionFormat2Code"/>
+    </bindings>
+    <bindings scd="~tns:Exemption1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.Exemption1Code"/>
+    </bindings>
+    <bindings scd="~tns:InformationQualify1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.InformationQualify1Code"/>
+    </bindings>
+    <bindings scd="~tns:InputCommand1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.InputCommand1Code"/>
+    </bindings>
+    <bindings scd="~tns:KeyUsage1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.KeyUsage1Code"/>
+    </bindings>
+    <bindings scd="~tns:LocationCategory3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.LocationCategory3Code"/>
+    </bindings>
+    <bindings scd="~tns:LocationCategory4Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.LocationCategory4Code"/>
+    </bindings>
+    <bindings scd="~tns:LoyaltyHandling1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.LoyaltyHandling1Code"/>
+    </bindings>
+    <bindings scd="~tns:MemoryUnit1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.MemoryUnit1Code"/>
+    </bindings>
+    <bindings scd="~tns:NetworkType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.NetworkType1Code"/>
+    </bindings>
+    <bindings scd="~tns:OnLineCapability1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.OnLineCapability1Code"/>
+    </bindings>
+    <bindings scd="~tns:OutputFormat1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.OutputFormat1Code"/>
+    </bindings>
+    <bindings scd="~tns:PINFormat3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.PINFormat3Code"/>
+    </bindings>
+    <bindings scd="~tns:POICommunicationType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.POICommunicationType2Code"/>
+    </bindings>
+    <bindings scd="~tns:POIComponentAssessment1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.POIComponentAssessment1Code"/>
+    </bindings>
+    <bindings scd="~tns:POIComponentStatus1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.POIComponentStatus1Code"/>
+    </bindings>
+    <bindings scd="~tns:POIComponentType6Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.POIComponentType6Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType33Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.PartyType33Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.PartyType3Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType4Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.PartyType4Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType7Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.PartyType7Code"/>
+    </bindings>
+    <bindings scd="~tns:Response11Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.Response11Code"/>
+    </bindings>
+    <bindings scd="~tns:RetailerMessage1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.RetailerMessage1Code"/>
+    </bindings>
+    <bindings scd="~tns:RetailerResultDetail1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.RetailerResultDetail1Code"/>
+    </bindings>
+    <bindings scd="~tns:RetailerService9Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.RetailerService9Code"/>
+    </bindings>
+    <bindings scd="~tns:SaleCapabilities1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.SaleCapabilities1Code"/>
+    </bindings>
+    <bindings scd="~tns:SaleCapabilities2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.SaleCapabilities2Code"/>
+    </bindings>
+    <bindings scd="~tns:SaleTokenScope1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.SaleTokenScope1Code"/>
+    </bindings>
+    <bindings scd="~tns:StoredValueAccountType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.StoredValueAccountType1Code"/>
+    </bindings>
+    <bindings scd="~tns:SupportedPaymentOption2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.SupportedPaymentOption2Code"/>
+    </bindings>
+    <bindings scd="~tns:TrackFormat1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.TrackFormat1Code"/>
+    </bindings>
+    <bindings scd="~tns:TransactionChannel5Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.TransactionChannel5Code"/>
+    </bindings>
+    <bindings scd="~tns:TransactionEnvironment1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.TransactionEnvironment1Code"/>
+    </bindings>
+    <bindings scd="~tns:UserInterface4Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.UserInterface4Code"/>
+    </bindings>
+    <bindings scd="~tns:Verification1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.casp.Verification1Code"/>
+    </bindings>
+  </bindings>
+</bindings>
+

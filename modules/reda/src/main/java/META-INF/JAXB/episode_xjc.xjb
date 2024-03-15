@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 06:13:39 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:reda.074.001.01">
+    <schemaBindings map="false">
+      <package name="org.coderic.iso20022.externalcodes.reda"/>
+    </schemaBindings>
+    <bindings scd="~tns:Document">
+      <class ref="org.coderic.iso20022.externalcodes.reda.Document"/>
+    </bindings>
+    <bindings scd="~tns:AlternatePartyIdentification7">
+      <class ref="org.coderic.iso20022.externalcodes.reda.AlternatePartyIdentification7"/>
+    </bindings>
+    <bindings scd="~tns:BlockChainAddressWallet3">
+      <class ref="org.coderic.iso20022.externalcodes.reda.BlockChainAddressWallet3"/>
+    </bindings>
+    <bindings scd="~tns:CollateralParties4">
+      <class ref="org.coderic.iso20022.externalcodes.reda.CollateralParties4"/>
+    </bindings>
+    <bindings scd="~tns:DateOrDateTimePeriod3Choice">
+      <class ref="org.coderic.iso20022.externalcodes.reda.DateOrDateTimePeriod3Choice"/>
+    </bindings>
+    <bindings scd="~tns:DateTimePeriod1">
+      <class ref="org.coderic.iso20022.externalcodes.reda.DateTimePeriod1"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification30">
+      <class ref="org.coderic.iso20022.externalcodes.reda.GenericIdentification30"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification36">
+      <class ref="org.coderic.iso20022.externalcodes.reda.GenericIdentification36"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification37">
+      <class ref="org.coderic.iso20022.externalcodes.reda.GenericIdentification37"/>
+    </bindings>
+    <bindings scd="~tns:IdentificationSource3Choice">
+      <class ref="org.coderic.iso20022.externalcodes.reda.IdentificationSource3Choice"/>
+    </bindings>
+    <bindings scd="~tns:IdentificationType42Choice">
+      <class ref="org.coderic.iso20022.externalcodes.reda.IdentificationType42Choice"/>
+    </bindings>
+    <bindings scd="~tns:NameAndAddress5">
+      <class ref="org.coderic.iso20022.externalcodes.reda.NameAndAddress5"/>
+    </bindings>
+    <bindings scd="~tns:OtherIdentification1">
+      <class ref="org.coderic.iso20022.externalcodes.reda.OtherIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:Pagination1">
+      <class ref="org.coderic.iso20022.externalcodes.reda.Pagination1"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentification120Choice">
+      <class ref="org.coderic.iso20022.externalcodes.reda.PartyIdentification120Choice"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentification232">
+      <class ref="org.coderic.iso20022.externalcodes.reda.PartyIdentification232"/>
+    </bindings>
+    <bindings scd="~tns:Period2">
+      <class ref="org.coderic.iso20022.externalcodes.reda.Period2"/>
+    </bindings>
+    <bindings scd="~tns:Period4Choice">
+      <class ref="org.coderic.iso20022.externalcodes.reda.Period4Choice"/>
+    </bindings>
+    <bindings scd="~tns:Period8Choice">
+      <class ref="org.coderic.iso20022.externalcodes.reda.Period8Choice"/>
+    </bindings>
+    <bindings scd="~tns:PostalAddress1">
+      <class ref="org.coderic.iso20022.externalcodes.reda.PostalAddress1"/>
+    </bindings>
+    <bindings scd="~tns:Reference21">
+      <class ref="org.coderic.iso20022.externalcodes.reda.Reference21"/>
+    </bindings>
+    <bindings scd="~tns:Removal1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.reda.Removal1Choice"/>
+    </bindings>
+    <bindings scd="~tns:RemovalProcessing2Choice">
+      <class ref="org.coderic.iso20022.externalcodes.reda.RemovalProcessing2Choice"/>
+    </bindings>
+    <bindings scd="~tns:RemovalTypeAndReason1">
+      <class ref="org.coderic.iso20022.externalcodes.reda.RemovalTypeAndReason1"/>
+    </bindings>
+    <bindings scd="~tns:RequestDetails28">
+      <class ref="org.coderic.iso20022.externalcodes.reda.RequestDetails28"/>
+    </bindings>
+    <bindings scd="~tns:SecuritiesAccount19">
+      <class ref="org.coderic.iso20022.externalcodes.reda.SecuritiesAccount19"/>
+    </bindings>
+    <bindings scd="~tns:SecurityIdentification19">
+      <class ref="org.coderic.iso20022.externalcodes.reda.SecurityIdentification19"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryData1">
+      <class ref="org.coderic.iso20022.externalcodes.reda.SupplementaryData1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryDataEnvelope1">
+      <class ref="org.coderic.iso20022.externalcodes.reda.SupplementaryDataEnvelope1"/>
+    </bindings>
+    <bindings scd="~tns:TripartyCollateralUnilateralRemovalRequestV01">
+      <class ref="org.coderic.iso20022.externalcodes.reda.TripartyCollateralUnilateralRemovalRequestV01"/>
+    </bindings>
+    <bindings scd="~tns:AddressType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.reda.AddressType2Code"/>
+    </bindings>
+    <bindings scd="~tns:CollateralRole1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.reda.CollateralRole1Code"/>
+    </bindings>
+    <bindings scd="~tns:FinancialInstrumentRemoval1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.reda.FinancialInstrumentRemoval1Code"/>
+    </bindings>
+    <bindings scd="~tns:TypeOfIdentification1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.reda.TypeOfIdentification1Code"/>
+    </bindings>
+  </bindings>
+</bindings>
+
