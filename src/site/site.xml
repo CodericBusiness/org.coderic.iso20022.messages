@@ -14,7 +14,7 @@
     <href>https://maven.apache.org/</href>
   </bannerRight>
   <poweredBy>
-    <logo name="Coderic" href="https://coderic.org/" img="/images/logo.png" position="center" width="80%" title="Coderic" />
+    <logo name="Coderic" href="https://coderic.org/" img="https://business.coderic.org/org.coderic.model.iso20022/images/logo.png" position="center" width="80%" title="Coderic" />
   </poweredBy>
   <skin>
     <groupId>org.apache.maven.skins</groupId>
