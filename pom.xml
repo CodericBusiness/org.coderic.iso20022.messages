@@ -7,15 +7,16 @@
   <packaging>pom</packaging>
   <name>ISO 20022 External Codes on JAXB-2 for WS</name>
   <description>ISO 20022 External Codes Schema Specification on Jaxb for WS</description>
-  <url>https://CodericBusiness.github.io/org.coderic.model.iso20022</url>
+  <url>https://github.com/CodericBusiness/org.coderic.model.iso20022</url>
   <organization>
     <name>Coderic</name>
     <url>https://coderic.org/</url>
   </organization>
+  <inceptionYear>2024</inceptionYear>
   <licenses>
     <license>
       <name>The GNU GPL3 license</name>
-      <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
@@ -25,6 +26,10 @@
     <tag>HEAD</tag>
     <url>https://github.com/CodericBusiness/org.coderic.model.iso20022.git</url>
   </scm>
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://github.com/CodericBusiness/org.coderic.model.iso20022/actions</url>
+  </ciManagement>
   <issueManagement>
     <system>GitHub</system>
     <url>https://github.com/CodericBusiness/org.coderic.model.iso20022/issues</url>
