@@ -32,10 +32,10 @@
       </gitHub>
     </fluidoSkin>
   </custom>
-  <edit>${project.scm.url}/edit/master/</edit>
+  <edit>https://github.com/CodericBusiness/org.coderic.model.iso20022/edit/master/</edit>
   <body>
     <links>
-      <item name="Repository" href="${project.scm.url}" />
+      <item name="Repository" href="https://github.com/CodericBusiness/org.coderic.model.iso20022" />
       <item name="Swift" href="https://www.swift.com/" />
       <item name="ISO 20022" href="https://www.iso20022.org/"/>
     </links>
