@@ -33,6 +33,6 @@ jobs:
         cache: maven
     - name: Test with Maven
       run: mvn clean test --file pom.xml
-    - name: Deploy site
-      run: mvn site --file pom.xml
+#    - name: Deploy site
+#      run: mvn site --file pom.xml
 
