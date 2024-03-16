@@ -35,6 +35,7 @@
             <item name="${project.artifactId}" href="/index.html"/>
         </breadcrumbs>
         <links>
+            <item name="Español" href="https://business.coderic.org/org.coderic.iso20022.externalcodes/es/"/>
             <item name="Repository" href="https://github.com/CodericBusiness/org.coderic.iso20022.externalcodes"/>
             <item name="Swift" href="https://www.swift.com/"/>
             <item name="ISO 20022" href="https://www.iso20022.org/"/>
