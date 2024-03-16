@@ -39,6 +39,8 @@
         <module name="catm" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="starter" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
