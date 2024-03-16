@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 07:25:12 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:caaa.027.001.01">
+    <schemaBindings map="false">
+      <package name="org.coderic.iso20022.externalcodes.caaa"/>
+    </schemaBindings>
+    <bindings scd="~tns:Document">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Document"/>
+    </bindings>
+    <bindings scd="~tns:AcceptorCancellationAdviceResponse12">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AcceptorCancellationAdviceResponse12"/>
+    </bindings>
+    <bindings scd="~tns:AcceptorCompletionAdviceResponse12">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AcceptorCompletionAdviceResponse12"/>
+    </bindings>
+    <bindings scd="~tns:Acquirer10">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Acquirer10"/>
+    </bindings>
+    <bindings scd="~tns:AcquirerToAcceptorBatchFileExchangeV01">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AcquirerToAcceptorBatchFileExchangeV01"/>
+    </bindings>
+    <bindings scd="~tns:AcquirerToAcceptorFileBody1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AcquirerToAcceptorFileBody1"/>
+    </bindings>
+    <bindings scd="~tns:AddressVerification1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AddressVerification1"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification31">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AlgorithmIdentification31"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification32">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AlgorithmIdentification32"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification33">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AlgorithmIdentification33"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification34">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AlgorithmIdentification34"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification35">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AlgorithmIdentification35"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification36">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AlgorithmIdentification36"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticatedData10">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.AuthenticatedData10"/>
+    </bindings>
+    <bindings scd="~tns:CardPaymentBatchTransferResponse11">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CardPaymentBatchTransferResponse11"/>
+    </bindings>
+    <bindings scd="~tns:CardPaymentDataSet35">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CardPaymentDataSet35"/>
+    </bindings>
+    <bindings scd="~tns:CardPaymentDataSet36">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CardPaymentDataSet36"/>
+    </bindings>
+    <bindings scd="~tns:CardPaymentEnvironment80">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CardPaymentEnvironment80"/>
+    </bindings>
+    <bindings scd="~tns:CardPaymentTransactionAdviceResponse5">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CardPaymentTransactionAdviceResponse5"/>
+    </bindings>
+    <bindings scd="~tns:CardPaymentTransactionAdviceResponse8">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CardPaymentTransactionAdviceResponse8"/>
+    </bindings>
+    <bindings scd="~tns:Cardholder21">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Cardholder21"/>
+    </bindings>
+    <bindings scd="~tns:CardholderAuthentication17">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CardholderAuthentication17"/>
+    </bindings>
+    <bindings scd="~tns:CertificateIssuer1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CertificateIssuer1"/>
+    </bindings>
+    <bindings scd="~tns:Check1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Check1"/>
+    </bindings>
+    <bindings scd="~tns:CommunicationAddress9">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CommunicationAddress9"/>
+    </bindings>
+    <bindings scd="~tns:CommunicationCharacteristics5">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CommunicationCharacteristics5"/>
+    </bindings>
+    <bindings scd="~tns:ContentInformationType38">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.ContentInformationType38"/>
+    </bindings>
+    <bindings scd="~tns:ContentInformationType39">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.ContentInformationType39"/>
+    </bindings>
+    <bindings scd="~tns:ContentInformationType40">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.ContentInformationType40"/>
+    </bindings>
+    <bindings scd="~tns:CryptographicKey18">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CryptographicKey18"/>
+    </bindings>
+    <bindings scd="~tns:CustomerDevice3">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.CustomerDevice3"/>
+    </bindings>
+    <bindings scd="~tns:DataSetIdentification5">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.DataSetIdentification5"/>
+    </bindings>
+    <bindings scd="~tns:DateAndPlaceOfBirth1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.DateAndPlaceOfBirth1"/>
+    </bindings>
+    <bindings scd="~tns:DigestedData6">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.DigestedData6"/>
+    </bindings>
+    <bindings scd="~tns:DisplayCapabilities4">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.DisplayCapabilities4"/>
+    </bindings>
+    <bindings scd="~tns:EncapsulatedContent3">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.EncapsulatedContent3"/>
+    </bindings>
+    <bindings scd="~tns:EncryptedContent7">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.EncryptedContent7"/>
+    </bindings>
+    <bindings scd="~tns:EnvelopedData11">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.EnvelopedData11"/>
+    </bindings>
+    <bindings scd="~tns:ExternallyDefinedData5">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.ExternallyDefinedData5"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification176">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.GenericIdentification176"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification177">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.GenericIdentification177"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification186">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.GenericIdentification186"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification32">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.GenericIdentification32"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification4">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.GenericIdentification4"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification48">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.GenericIdentification48"/>
+    </bindings>
+    <bindings scd="~tns:GenericInformation1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.GenericInformation1"/>
+    </bindings>
+    <bindings scd="~tns:Geolocation1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Geolocation1"/>
+    </bindings>
+    <bindings scd="~tns:GeolocationGeographicCoordinates1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.GeolocationGeographicCoordinates1"/>
+    </bindings>
+    <bindings scd="~tns:GeolocationUTMCoordinates1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.GeolocationUTMCoordinates1"/>
+    </bindings>
+    <bindings scd="~tns:Header56">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Header56"/>
+    </bindings>
+    <bindings scd="~tns:IssuerAndSerialNumber2">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.IssuerAndSerialNumber2"/>
+    </bindings>
+    <bindings scd="~tns:KEK9">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.KEK9"/>
+    </bindings>
+    <bindings scd="~tns:KEKIdentifier7">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.KEKIdentifier7"/>
+    </bindings>
+    <bindings scd="~tns:KeyTransport10">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.KeyTransport10"/>
+    </bindings>
+    <bindings scd="~tns:LoyaltyAccount3">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.LoyaltyAccount3"/>
+    </bindings>
+    <bindings scd="~tns:MemoryCharacteristics1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.MemoryCharacteristics1"/>
+    </bindings>
+    <bindings scd="~tns:MerchantToken2">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.MerchantToken2"/>
+    </bindings>
+    <bindings scd="~tns:MobileData6">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.MobileData6"/>
+    </bindings>
+    <bindings scd="~tns:NetworkParameters7">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.NetworkParameters7"/>
+    </bindings>
+    <bindings scd="~tns:NetworkParameters9">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.NetworkParameters9"/>
+    </bindings>
+    <bindings scd="~tns:OnLinePIN11">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.OnLinePIN11"/>
+    </bindings>
+    <bindings scd="~tns:Organisation41">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Organisation41"/>
+    </bindings>
+    <bindings scd="~tns:OriginatorInformation1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.OriginatorInformation1"/>
+    </bindings>
+    <bindings scd="~tns:PackageType5">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PackageType5"/>
+    </bindings>
+    <bindings scd="~tns:Parameter12">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Parameter12"/>
+    </bindings>
+    <bindings scd="~tns:Parameter16">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Parameter16"/>
+    </bindings>
+    <bindings scd="~tns:Parameter17">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Parameter17"/>
+    </bindings>
+    <bindings scd="~tns:Parameter18">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Parameter18"/>
+    </bindings>
+    <bindings scd="~tns:Parameter7">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Parameter7"/>
+    </bindings>
+    <bindings scd="~tns:PaymentCard35">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PaymentCard35"/>
+    </bindings>
+    <bindings scd="~tns:PaymentTokenIdentifiers1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PaymentTokenIdentifiers1"/>
+    </bindings>
+    <bindings scd="~tns:PersonIdentification15">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PersonIdentification15"/>
+    </bindings>
+    <bindings scd="~tns:PhysicalInterfaceParameter1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PhysicalInterfaceParameter1"/>
+    </bindings>
+    <bindings scd="~tns:PlainCardData17">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PlainCardData17"/>
+    </bindings>
+    <bindings scd="~tns:PlainCardData22">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PlainCardData22"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteraction14">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PointOfInteraction14"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionCapabilities9">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PointOfInteractionCapabilities9"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionComponent15">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PointOfInteractionComponent15"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionComponentAssessment1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PointOfInteractionComponentAssessment1"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionComponentCharacteristics10">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PointOfInteractionComponentCharacteristics10"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionComponentIdentification2">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PointOfInteractionComponentIdentification2"/>
+    </bindings>
+    <bindings scd="~tns:PointOfInteractionComponentStatus3">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PointOfInteractionComponentStatus3"/>
+    </bindings>
+    <bindings scd="~tns:PostalAddress22">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.PostalAddress22"/>
+    </bindings>
+    <bindings scd="~tns:Recipient13Choice">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Recipient13Choice"/>
+    </bindings>
+    <bindings scd="~tns:Recipient15Choice">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Recipient15Choice"/>
+    </bindings>
+    <bindings scd="~tns:RelativeDistinguishedName1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.RelativeDistinguishedName1"/>
+    </bindings>
+    <bindings scd="~tns:ResponseType10">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.ResponseType10"/>
+    </bindings>
+    <bindings scd="~tns:ResponseType11">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.ResponseType11"/>
+    </bindings>
+    <bindings scd="~tns:RetailerSaleEnvironment2">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.RetailerSaleEnvironment2"/>
+    </bindings>
+    <bindings scd="~tns:SensitiveMobileData1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.SensitiveMobileData1"/>
+    </bindings>
+    <bindings scd="~tns:SignedData9">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.SignedData9"/>
+    </bindings>
+    <bindings scd="~tns:Signer8">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Signer8"/>
+    </bindings>
+    <bindings scd="~tns:StoredValueAccount2">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.StoredValueAccount2"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryData1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.SupplementaryData1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryDataEnvelope1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.SupplementaryDataEnvelope1"/>
+    </bindings>
+    <bindings scd="~tns:TMSTrigger1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.TMSTrigger1"/>
+    </bindings>
+    <bindings scd="~tns:Token1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Token1"/>
+    </bindings>
+    <bindings scd="~tns:TrackData2">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.TrackData2"/>
+    </bindings>
+    <bindings scd="~tns:TransactionIdentifier1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.TransactionIdentifier1"/>
+    </bindings>
+    <bindings scd="~tns:TransactionTotals12">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.TransactionTotals12"/>
+    </bindings>
+    <bindings scd="~tns:TransactionVerificationResult4">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.TransactionVerificationResult4"/>
+    </bindings>
+    <bindings scd="~tns:Vehicle1">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Vehicle1"/>
+    </bindings>
+    <bindings scd="~tns:Vehicle2">
+      <class ref="org.coderic.iso20022.externalcodes.caaa.Vehicle2"/>
+    </bindings>
+    <bindings scd="~tns:AddressType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.AddressType2Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm26Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Algorithm26Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm27Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Algorithm27Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm28Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Algorithm28Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm29Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Algorithm29Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm7Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Algorithm7Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Algorithm8Code"/>
+    </bindings>
+    <bindings scd="~tns:AmountUnit1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.AmountUnit1Code"/>
+    </bindings>
+    <bindings scd="~tns:AttributeType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.AttributeType1Code"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticationEntity2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.AuthenticationEntity2Code"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticationMethod6Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.AuthenticationMethod6Code"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticationMethod8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.AuthenticationMethod8Code"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticationResult1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.AuthenticationResult1Code"/>
+    </bindings>
+    <bindings scd="~tns:BytePadding1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.BytePadding1Code"/>
+    </bindings>
+    <bindings scd="~tns:CardDataReading5Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.CardDataReading5Code"/>
+    </bindings>
+    <bindings scd="~tns:CardDataReading8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.CardDataReading8Code"/>
+    </bindings>
+    <bindings scd="~tns:CardIdentificationType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.CardIdentificationType1Code"/>
+    </bindings>
+    <bindings scd="~tns:CardProductType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.CardProductType1Code"/>
+    </bindings>
+    <bindings scd="~tns:CardholderVerificationCapability4Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.CardholderVerificationCapability4Code"/>
+    </bindings>
+    <bindings scd="~tns:CheckType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.CheckType1Code"/>
+    </bindings>
+    <bindings scd="~tns:ContentType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.ContentType2Code"/>
+    </bindings>
+    <bindings scd="~tns:CryptographicKeyType3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.CryptographicKeyType3Code"/>
+    </bindings>
+    <bindings scd="~tns:DataSetCategory8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.DataSetCategory8Code"/>
+    </bindings>
+    <bindings scd="~tns:EncryptionFormat2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.EncryptionFormat2Code"/>
+    </bindings>
+    <bindings scd="~tns:Exemption1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Exemption1Code"/>
+    </bindings>
+    <bindings scd="~tns:KeyUsage1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.KeyUsage1Code"/>
+    </bindings>
+    <bindings scd="~tns:LocationCategory3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.LocationCategory3Code"/>
+    </bindings>
+    <bindings scd="~tns:LocationCategory4Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.LocationCategory4Code"/>
+    </bindings>
+    <bindings scd="~tns:LoyaltyHandling1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.LoyaltyHandling1Code"/>
+    </bindings>
+    <bindings scd="~tns:MemoryUnit1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.MemoryUnit1Code"/>
+    </bindings>
+    <bindings scd="~tns:NetworkType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.NetworkType1Code"/>
+    </bindings>
+    <bindings scd="~tns:OnLineCapability1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.OnLineCapability1Code"/>
+    </bindings>
+    <bindings scd="~tns:OutputFormat1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.OutputFormat1Code"/>
+    </bindings>
+    <bindings scd="~tns:PINFormat3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.PINFormat3Code"/>
+    </bindings>
+    <bindings scd="~tns:POICommunicationType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.POICommunicationType2Code"/>
+    </bindings>
+    <bindings scd="~tns:POIComponentAssessment1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.POIComponentAssessment1Code"/>
+    </bindings>
+    <bindings scd="~tns:POIComponentStatus1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.POIComponentStatus1Code"/>
+    </bindings>
+    <bindings scd="~tns:POIComponentType6Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.POIComponentType6Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType33Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.PartyType33Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.PartyType3Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType4Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.PartyType4Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType7Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.PartyType7Code"/>
+    </bindings>
+    <bindings scd="~tns:Response11Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Response11Code"/>
+    </bindings>
+    <bindings scd="~tns:Response1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Response1Code"/>
+    </bindings>
+    <bindings scd="~tns:Response9Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Response9Code"/>
+    </bindings>
+    <bindings scd="~tns:RetailerResultDetail1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.RetailerResultDetail1Code"/>
+    </bindings>
+    <bindings scd="~tns:SaleCapabilities1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.SaleCapabilities1Code"/>
+    </bindings>
+    <bindings scd="~tns:StoredValueAccountType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.StoredValueAccountType1Code"/>
+    </bindings>
+    <bindings scd="~tns:TMSContactLevel1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.TMSContactLevel1Code"/>
+    </bindings>
+    <bindings scd="~tns:TrackFormat1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.TrackFormat1Code"/>
+    </bindings>
+    <bindings scd="~tns:TypeTransactionTotals2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.TypeTransactionTotals2Code"/>
+    </bindings>
+    <bindings scd="~tns:UserInterface4Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.UserInterface4Code"/>
+    </bindings>
+    <bindings scd="~tns:Verification1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caaa.Verification1Code"/>
+    </bindings>
+  </bindings>
+</bindings>
+

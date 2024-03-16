@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 07:25:16 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:caam.012.001.01">
+    <schemaBindings map="false">
+      <package name="org.coderic.iso20022.externalcodes.caam"/>
+    </schemaBindings>
+    <bindings scd="~tns:Document">
+      <class ref="org.coderic.iso20022.externalcodes.caam.Document"/>
+    </bindings>
+    <bindings scd="~tns:ATMCommand7">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ATMCommand7"/>
+    </bindings>
+    <bindings scd="~tns:ATMCommandIdentification1">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ATMCommandIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:ATMCommandParameters1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ATMCommandParameters1Choice"/>
+    </bindings>
+    <bindings scd="~tns:ATMConfigurationParameter1">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ATMConfigurationParameter1"/>
+    </bindings>
+    <bindings scd="~tns:ATMContext20">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ATMContext20"/>
+    </bindings>
+    <bindings scd="~tns:ATMExceptionAcknowledgement1">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ATMExceptionAcknowledgement1"/>
+    </bindings>
+    <bindings scd="~tns:ATMExceptionAcknowledgementV01">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ATMExceptionAcknowledgementV01"/>
+    </bindings>
+    <bindings scd="~tns:ATMMessageFunction2">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ATMMessageFunction2"/>
+    </bindings>
+    <bindings scd="~tns:ATMService24">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ATMService24"/>
+    </bindings>
+    <bindings scd="~tns:ATMTransaction28">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ATMTransaction28"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification11">
+      <class ref="org.coderic.iso20022.externalcodes.caam.AlgorithmIdentification11"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification12">
+      <class ref="org.coderic.iso20022.externalcodes.caam.AlgorithmIdentification12"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification13">
+      <class ref="org.coderic.iso20022.externalcodes.caam.AlgorithmIdentification13"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification14">
+      <class ref="org.coderic.iso20022.externalcodes.caam.AlgorithmIdentification14"/>
+    </bindings>
+    <bindings scd="~tns:AlgorithmIdentification15">
+      <class ref="org.coderic.iso20022.externalcodes.caam.AlgorithmIdentification15"/>
+    </bindings>
+    <bindings scd="~tns:AuthenticatedData4">
+      <class ref="org.coderic.iso20022.externalcodes.caam.AuthenticatedData4"/>
+    </bindings>
+    <bindings scd="~tns:AutomatedTellerMachine3">
+      <class ref="org.coderic.iso20022.externalcodes.caam.AutomatedTellerMachine3"/>
+    </bindings>
+    <bindings scd="~tns:CertificateIssuer1">
+      <class ref="org.coderic.iso20022.externalcodes.caam.CertificateIssuer1"/>
+    </bindings>
+    <bindings scd="~tns:ContentInformationType10">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ContentInformationType10"/>
+    </bindings>
+    <bindings scd="~tns:ContentInformationType15">
+      <class ref="org.coderic.iso20022.externalcodes.caam.ContentInformationType15"/>
+    </bindings>
+    <bindings scd="~tns:EncapsulatedContent3">
+      <class ref="org.coderic.iso20022.externalcodes.caam.EncapsulatedContent3"/>
+    </bindings>
+    <bindings scd="~tns:EncryptedContent3">
+      <class ref="org.coderic.iso20022.externalcodes.caam.EncryptedContent3"/>
+    </bindings>
+    <bindings scd="~tns:EnvelopedData4">
+      <class ref="org.coderic.iso20022.externalcodes.caam.EnvelopedData4"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification77">
+      <class ref="org.coderic.iso20022.externalcodes.caam.GenericIdentification77"/>
+    </bindings>
+    <bindings scd="~tns:GeographicCoordinates1">
+      <class ref="org.coderic.iso20022.externalcodes.caam.GeographicCoordinates1"/>
+    </bindings>
+    <bindings scd="~tns:GeographicLocation1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.caam.GeographicLocation1Choice"/>
+    </bindings>
+    <bindings scd="~tns:Header32">
+      <class ref="org.coderic.iso20022.externalcodes.caam.Header32"/>
+    </bindings>
+    <bindings scd="~tns:IssuerAndSerialNumber1">
+      <class ref="org.coderic.iso20022.externalcodes.caam.IssuerAndSerialNumber1"/>
+    </bindings>
+    <bindings scd="~tns:KEK4">
+      <class ref="org.coderic.iso20022.externalcodes.caam.KEK4"/>
+    </bindings>
+    <bindings scd="~tns:KEKIdentifier2">
+      <class ref="org.coderic.iso20022.externalcodes.caam.KEKIdentifier2"/>
+    </bindings>
+    <bindings scd="~tns:KeyTransport4">
+      <class ref="org.coderic.iso20022.externalcodes.caam.KeyTransport4"/>
+    </bindings>
+    <bindings scd="~tns:Parameter4">
+      <class ref="org.coderic.iso20022.externalcodes.caam.Parameter4"/>
+    </bindings>
+    <bindings scd="~tns:Parameter5">
+      <class ref="org.coderic.iso20022.externalcodes.caam.Parameter5"/>
+    </bindings>
+    <bindings scd="~tns:Parameter6">
+      <class ref="org.coderic.iso20022.externalcodes.caam.Parameter6"/>
+    </bindings>
+    <bindings scd="~tns:Parameter7">
+      <class ref="org.coderic.iso20022.externalcodes.caam.Parameter7"/>
+    </bindings>
+    <bindings scd="~tns:PostalAddress17">
+      <class ref="org.coderic.iso20022.externalcodes.caam.PostalAddress17"/>
+    </bindings>
+    <bindings scd="~tns:Recipient4Choice">
+      <class ref="org.coderic.iso20022.externalcodes.caam.Recipient4Choice"/>
+    </bindings>
+    <bindings scd="~tns:Recipient5Choice">
+      <class ref="org.coderic.iso20022.externalcodes.caam.Recipient5Choice"/>
+    </bindings>
+    <bindings scd="~tns:RelativeDistinguishedName1">
+      <class ref="org.coderic.iso20022.externalcodes.caam.RelativeDistinguishedName1"/>
+    </bindings>
+    <bindings scd="~tns:Traceability4">
+      <class ref="org.coderic.iso20022.externalcodes.caam.Traceability4"/>
+    </bindings>
+    <bindings scd="~tns:TransactionIdentifier1">
+      <class ref="org.coderic.iso20022.externalcodes.caam.TransactionIdentifier1"/>
+    </bindings>
+    <bindings scd="~tns:UTMCoordinates1">
+      <class ref="org.coderic.iso20022.externalcodes.caam.UTMCoordinates1"/>
+    </bindings>
+    <bindings scd="~tns:ATMCommand4Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.ATMCommand4Code"/>
+    </bindings>
+    <bindings scd="~tns:ATMServiceType10Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.ATMServiceType10Code"/>
+    </bindings>
+    <bindings scd="~tns:ATMStatus1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.ATMStatus1Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm11Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.Algorithm11Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm12Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.Algorithm12Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm13Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.Algorithm13Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm15Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.Algorithm15Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm7Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.Algorithm7Code"/>
+    </bindings>
+    <bindings scd="~tns:Algorithm8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.Algorithm8Code"/>
+    </bindings>
+    <bindings scd="~tns:AttributeType1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.AttributeType1Code"/>
+    </bindings>
+    <bindings scd="~tns:BytePadding1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.BytePadding1Code"/>
+    </bindings>
+    <bindings scd="~tns:ContentType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.ContentType2Code"/>
+    </bindings>
+    <bindings scd="~tns:DataSetCategory7Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.DataSetCategory7Code"/>
+    </bindings>
+    <bindings scd="~tns:EncryptionFormat1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.EncryptionFormat1Code"/>
+    </bindings>
+    <bindings scd="~tns:MessageFunction11Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.MessageFunction11Code"/>
+    </bindings>
+    <bindings scd="~tns:MessageFunction8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.MessageFunction8Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType12Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.PartyType12Code"/>
+    </bindings>
+    <bindings scd="~tns:Response2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.Response2Code"/>
+    </bindings>
+    <bindings scd="~tns:TMSContactLevel2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.caam.TMSContactLevel2Code"/>
+    </bindings>
+  </bindings>
+</bindings>
+

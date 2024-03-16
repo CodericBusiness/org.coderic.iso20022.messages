@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 07:25:39 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:tsrv.019.001.01">
+    <schemaBindings map="false">
+      <package name="org.coderic.iso20022.externalcodes.tsrv"/>
+    </schemaBindings>
+    <bindings scd="~tns:Document">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.Document"/>
+    </bindings>
+    <bindings scd="~tns:ActiveCurrencyAndAmount">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.ActiveCurrencyAndAmount"/>
+    </bindings>
+    <bindings scd="~tns:BranchAndFinancialInstitutionIdentification5">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.BranchAndFinancialInstitutionIdentification5"/>
+    </bindings>
+    <bindings scd="~tns:BranchData2">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.BranchData2"/>
+    </bindings>
+    <bindings scd="~tns:ClearingSystemIdentification2Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.ClearingSystemIdentification2Choice"/>
+    </bindings>
+    <bindings scd="~tns:ClearingSystemMemberIdentification2">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.ClearingSystemMemberIdentification2"/>
+    </bindings>
+    <bindings scd="~tns:ContactDetails2">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.ContactDetails2"/>
+    </bindings>
+    <bindings scd="~tns:DateAndPlaceOfBirth">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.DateAndPlaceOfBirth"/>
+    </bindings>
+    <bindings scd="~tns:Document9">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.Document9"/>
+    </bindings>
+    <bindings scd="~tns:DocumentFormat1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.DocumentFormat1Choice"/>
+    </bindings>
+    <bindings scd="~tns:FinancialIdentificationSchemeName1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.FinancialIdentificationSchemeName1Choice"/>
+    </bindings>
+    <bindings scd="~tns:FinancialInstitutionIdentification8">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.FinancialInstitutionIdentification8"/>
+    </bindings>
+    <bindings scd="~tns:GenericFinancialIdentification1">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.GenericFinancialIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification1">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.GenericIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:GenericOrganisationIdentification1">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.GenericOrganisationIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:GenericPersonIdentification1">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.GenericPersonIdentification1"/>
+    </bindings>
+    <bindings scd="~tns:OrganisationIdentification4">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.OrganisationIdentification4"/>
+    </bindings>
+    <bindings scd="~tns:OrganisationIdentification7">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.OrganisationIdentification7"/>
+    </bindings>
+    <bindings scd="~tns:OrganisationIdentification8">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.OrganisationIdentification8"/>
+    </bindings>
+    <bindings scd="~tns:OrganisationIdentificationSchemeName1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.OrganisationIdentificationSchemeName1Choice"/>
+    </bindings>
+    <bindings scd="~tns:OriginalMessage1">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.OriginalMessage1"/>
+    </bindings>
+    <bindings scd="~tns:Party10Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.Party10Choice"/>
+    </bindings>
+    <bindings scd="~tns:Party11Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.Party11Choice"/>
+    </bindings>
+    <bindings scd="~tns:Party6Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.Party6Choice"/>
+    </bindings>
+    <bindings scd="~tns:Party9Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.Party9Choice"/>
+    </bindings>
+    <bindings scd="~tns:PartyAndSignature2">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.PartyAndSignature2"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentification32">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.PartyIdentification32"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentification42">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.PartyIdentification42"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentification43">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.PartyIdentification43"/>
+    </bindings>
+    <bindings scd="~tns:PersonIdentification5">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.PersonIdentification5"/>
+    </bindings>
+    <bindings scd="~tns:PersonIdentificationSchemeName1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.PersonIdentificationSchemeName1Choice"/>
+    </bindings>
+    <bindings scd="~tns:PostalAddress6">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.PostalAddress6"/>
+    </bindings>
+    <bindings scd="~tns:ProprietaryData3">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.ProprietaryData3"/>
+    </bindings>
+    <bindings scd="~tns:ReportedAmount1">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.ReportedAmount1"/>
+    </bindings>
+    <bindings scd="~tns:StatusReason6Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.StatusReason6Choice"/>
+    </bindings>
+    <bindings scd="~tns:StatusReasonInformation8">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.StatusReasonInformation8"/>
+    </bindings>
+    <bindings scd="~tns:Undertaking8">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.Undertaking8"/>
+    </bindings>
+    <bindings scd="~tns:UndertakingDocumentType1Choice">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.UndertakingDocumentType1Choice"/>
+    </bindings>
+    <bindings scd="~tns:UndertakingStatusAdvice1">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.UndertakingStatusAdvice1"/>
+    </bindings>
+    <bindings scd="~tns:UndertakingStatusReportV01">
+      <class ref="org.coderic.iso20022.externalcodes.tsrv.UndertakingStatusReportV01"/>
+    </bindings>
+    <bindings scd="~tns:AddressType2Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsrv.AddressType2Code"/>
+    </bindings>
+    <bindings scd="~tns:CopyDuplicate1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsrv.CopyDuplicate1Code"/>
+    </bindings>
+    <bindings scd="~tns:NamePrefix1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsrv.NamePrefix1Code"/>
+    </bindings>
+    <bindings scd="~tns:UndertakingStatus3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsrv.UndertakingStatus3Code"/>
+    </bindings>
+  </bindings>
+</bindings>
+

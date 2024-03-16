@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.15 a las 07:25:20 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:cafr.004.001.02">
+    <schemaBindings map="false">
+      <package name="org.coderic.iso20022.externalcodes.cafr"/>
+    </schemaBindings>
+    <bindings scd="~tns:Document">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Document"/>
+    </bindings>
+    <bindings scd="~tns:AdditionalData1">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.AdditionalData1"/>
+    </bindings>
+    <bindings scd="~tns:AdditionalFee2">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.AdditionalFee2"/>
+    </bindings>
+    <bindings scd="~tns:AdditionalInformation30">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.AdditionalInformation30"/>
+    </bindings>
+    <bindings scd="~tns:Address2">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Address2"/>
+    </bindings>
+    <bindings scd="~tns:Address3">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Address3"/>
+    </bindings>
+    <bindings scd="~tns:ApprovalEntity2">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.ApprovalEntity2"/>
+    </bindings>
+    <bindings scd="~tns:Authority1">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Authority1"/>
+    </bindings>
+    <bindings scd="~tns:BatchManagementInformation1">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.BatchManagementInformation1"/>
+    </bindings>
+    <bindings scd="~tns:CardData8">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.CardData8"/>
+    </bindings>
+    <bindings scd="~tns:CardProgrammeMode3">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.CardProgrammeMode3"/>
+    </bindings>
+    <bindings scd="~tns:Cardholder19">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Cardholder19"/>
+    </bindings>
+    <bindings scd="~tns:CardholderName2">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.CardholderName2"/>
+    </bindings>
+    <bindings scd="~tns:CardholderName3">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.CardholderName3"/>
+    </bindings>
+    <bindings scd="~tns:Contact1">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Contact1"/>
+    </bindings>
+    <bindings scd="~tns:ContentInformationType20">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.ContentInformationType20"/>
+    </bindings>
+    <bindings scd="~tns:Context17">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Context17"/>
+    </bindings>
+    <bindings scd="~tns:Credentials2">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Credentials2"/>
+    </bindings>
+    <bindings scd="~tns:Environment28">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Environment28"/>
+    </bindings>
+    <bindings scd="~tns:ErrorDetails2">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.ErrorDetails2"/>
+    </bindings>
+    <bindings scd="~tns:FeeAmount3">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.FeeAmount3"/>
+    </bindings>
+    <bindings scd="~tns:FraudDispositionResponse2">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.FraudDispositionResponse2"/>
+    </bindings>
+    <bindings scd="~tns:FraudDispositionResponseV02">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.FraudDispositionResponseV02"/>
+    </bindings>
+    <bindings scd="~tns:GenericIdentification183">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.GenericIdentification183"/>
+    </bindings>
+    <bindings scd="~tns:Header66">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Header66"/>
+    </bindings>
+    <bindings scd="~tns:Jurisdiction2">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Jurisdiction2"/>
+    </bindings>
+    <bindings scd="~tns:LocalData1">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.LocalData1"/>
+    </bindings>
+    <bindings scd="~tns:LocalData7">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.LocalData7"/>
+    </bindings>
+    <bindings scd="~tns:MACData1">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.MACData1"/>
+    </bindings>
+    <bindings scd="~tns:PartyIdentification263">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.PartyIdentification263"/>
+    </bindings>
+    <bindings scd="~tns:ProcessingResult19">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.ProcessingResult19"/>
+    </bindings>
+    <bindings scd="~tns:Reconciliation3">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Reconciliation3"/>
+    </bindings>
+    <bindings scd="~tns:ResultData10">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.ResultData10"/>
+    </bindings>
+    <bindings scd="~tns:ResultData7">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.ResultData7"/>
+    </bindings>
+    <bindings scd="~tns:SettlementReportingEntity1">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.SettlementReportingEntity1"/>
+    </bindings>
+    <bindings scd="~tns:SettlementService4">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.SettlementService4"/>
+    </bindings>
+    <bindings scd="~tns:SettlementServiceDate2">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.SettlementServiceDate2"/>
+    </bindings>
+    <bindings scd="~tns:SettlementServiceMode1">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.SettlementServiceMode1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryData1">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.SupplementaryData1"/>
+    </bindings>
+    <bindings scd="~tns:SupplementaryDataEnvelope1">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.SupplementaryDataEnvelope1"/>
+    </bindings>
+    <bindings scd="~tns:Token2">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Token2"/>
+    </bindings>
+    <bindings scd="~tns:Traceability9">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Traceability9"/>
+    </bindings>
+    <bindings scd="~tns:Transaction129">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.Transaction129"/>
+    </bindings>
+    <bindings scd="~tns:TransactionContext10">
+      <class ref="org.coderic.iso20022.externalcodes.cafr.TransactionContext10"/>
+    </bindings>
+    <bindings scd="~tns:CreditDebit3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.CreditDebit3Code"/>
+    </bindings>
+    <bindings scd="~tns:Identification3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.Identification3Code"/>
+    </bindings>
+    <bindings scd="~tns:MessageError1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.MessageError1Code"/>
+    </bindings>
+    <bindings scd="~tns:MessageFunction29Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.MessageFunction29Code"/>
+    </bindings>
+    <bindings scd="~tns:OutputFormat4Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.OutputFormat4Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType17Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.PartyType17Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType18Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.PartyType18Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType19Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.PartyType19Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType26Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.PartyType26Code"/>
+    </bindings>
+    <bindings scd="~tns:PartyType9Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.PartyType9Code"/>
+    </bindings>
+    <bindings scd="~tns:Priority3Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.Priority3Code"/>
+    </bindings>
+    <bindings scd="~tns:ProtectionMethod1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.ProtectionMethod1Code"/>
+    </bindings>
+    <bindings scd="~tns:Response8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.Response8Code"/>
+    </bindings>
+    <bindings scd="~tns:StorageLocation1Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.StorageLocation1Code"/>
+    </bindings>
+    <bindings scd="~tns:TypeOfAmount21Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.TypeOfAmount21Code"/>
+    </bindings>
+    <bindings scd="~tns:UserInterface8Code">
+      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cafr.UserInterface8Code"/>
+    </bindings>
+  </bindings>
+</bindings>
+
