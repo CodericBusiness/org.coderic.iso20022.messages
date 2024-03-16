@@ -6,4 +6,4 @@
 //
 
 @jakarta.xml.bind.annotation.XmlSchema(namespace = "urn:iso:std:iso:20022:tech:xsd:sese.042.001.01", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
-package org.coderic.iso20022.externalcodes.sese;
+package org.coderic.iso20022.messages.sese;

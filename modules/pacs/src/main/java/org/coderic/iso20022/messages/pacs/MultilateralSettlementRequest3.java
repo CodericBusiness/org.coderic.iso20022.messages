@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.pacs;
+package org.coderic.iso20022.messages.pacs;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.caaa;
+package org.coderic.iso20022.messages.caaa;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

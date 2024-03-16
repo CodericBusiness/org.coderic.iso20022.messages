@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.casp;
+package org.coderic.iso20022.messages.casp;
 
 import jakarta.xml.bind.annotation.XmlEnum;
 import jakarta.xml.bind.annotation.XmlType;

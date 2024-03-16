@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.tsin;
+package org.coderic.iso20022.messages.tsin;
 
 import java.util.ArrayList;
 import java.util.List;

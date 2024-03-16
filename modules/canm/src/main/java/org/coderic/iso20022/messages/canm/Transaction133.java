@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.canm;
+package org.coderic.iso20022.messages.canm;
 
 import java.util.ArrayList;
 import java.util.List;

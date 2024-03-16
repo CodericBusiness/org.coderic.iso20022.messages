@@ -10,125 +10,124 @@ Generado el: 2024.03.15 a las 08:18:23 PM COT
   -->
   <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:pacs.029.001.02">
     <schemaBindings map="false">
-      <package name="org.coderic.iso20022.externalcodes.pacs"/>
+      <package name="org.coderic.iso20022.messages.pacs"/>
     </schemaBindings>
     <bindings scd="~tns:Document">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.Document"/>
+      <class ref="org.coderic.iso20022.messages.pacs.Document"/>
     </bindings>
     <bindings scd="~tns:AccountIdentification4Choice">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.AccountIdentification4Choice"/>
+      <class ref="org.coderic.iso20022.messages.pacs.AccountIdentification4Choice"/>
     </bindings>
     <bindings scd="~tns:AccountSchemeName1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.AccountSchemeName1Choice"/>
+      <class ref="org.coderic.iso20022.messages.pacs.AccountSchemeName1Choice"/>
     </bindings>
     <bindings scd="~tns:ActiveCurrencyAndAmount">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.ActiveCurrencyAndAmount"/>
+      <class ref="org.coderic.iso20022.messages.pacs.ActiveCurrencyAndAmount"/>
     </bindings>
     <bindings scd="~tns:AddressType3Choice">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.AddressType3Choice"/>
+      <class ref="org.coderic.iso20022.messages.pacs.AddressType3Choice"/>
     </bindings>
     <bindings scd="~tns:AmountAndDirection5">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.AmountAndDirection5"/>
+      <class ref="org.coderic.iso20022.messages.pacs.AmountAndDirection5"/>
     </bindings>
     <bindings scd="~tns:CashAccount40">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.CashAccount40"/>
+      <class ref="org.coderic.iso20022.messages.pacs.CashAccount40"/>
     </bindings>
     <bindings scd="~tns:CashAccountType2Choice">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.CashAccountType2Choice"/>
+      <class ref="org.coderic.iso20022.messages.pacs.CashAccountType2Choice"/>
     </bindings>
     <bindings scd="~tns:ClearingSystemIdentification3Choice">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.ClearingSystemIdentification3Choice"/>
+      <class ref="org.coderic.iso20022.messages.pacs.ClearingSystemIdentification3Choice"/>
     </bindings>
     <bindings scd="~tns:Contact13">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.Contact13"/>
+      <class ref="org.coderic.iso20022.messages.pacs.Contact13"/>
     </bindings>
     <bindings scd="~tns:DateAndPlaceOfBirth1">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.DateAndPlaceOfBirth1"/>
+      <class ref="org.coderic.iso20022.messages.pacs.DateAndPlaceOfBirth1"/>
     </bindings>
     <bindings scd="~tns:GenericAccountIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.GenericAccountIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.pacs.GenericAccountIdentification1"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification30">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.GenericIdentification30"/>
+      <class ref="org.coderic.iso20022.messages.pacs.GenericIdentification30"/>
     </bindings>
     <bindings scd="~tns:GenericOrganisationIdentification3">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.GenericOrganisationIdentification3"/>
+      <class ref="org.coderic.iso20022.messages.pacs.GenericOrganisationIdentification3"/>
     </bindings>
     <bindings scd="~tns:GenericPersonIdentification2">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.GenericPersonIdentification2"/>
+      <class ref="org.coderic.iso20022.messages.pacs.GenericPersonIdentification2"/>
     </bindings>
     <bindings scd="~tns:GroupHeader104">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.GroupHeader104"/>
+      <class ref="org.coderic.iso20022.messages.pacs.GroupHeader104"/>
     </bindings>
     <bindings scd="~tns:MovementRecord2">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.MovementRecord2"/>
+      <class ref="org.coderic.iso20022.messages.pacs.MovementRecord2"/>
     </bindings>
     <bindings scd="~tns:MultilateralSettlementRequest3">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.MultilateralSettlementRequest3"/>
+      <class ref="org.coderic.iso20022.messages.pacs.MultilateralSettlementRequest3"/>
     </bindings>
     <bindings scd="~tns:MultilateralSettlementRequestV02">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.MultilateralSettlementRequestV02"/>
+      <class ref="org.coderic.iso20022.messages.pacs.MultilateralSettlementRequestV02"/>
     </bindings>
     <bindings scd="~tns:OrganisationIdentification39">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.OrganisationIdentification39"/>
+      <class ref="org.coderic.iso20022.messages.pacs.OrganisationIdentification39"/>
     </bindings>
     <bindings scd="~tns:OrganisationIdentificationSchemeName1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.OrganisationIdentificationSchemeName1Choice"/>
+      <class ref="org.coderic.iso20022.messages.pacs.OrganisationIdentificationSchemeName1Choice"/>
     </bindings>
     <bindings scd="~tns:OtherContact1">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.OtherContact1"/>
+      <class ref="org.coderic.iso20022.messages.pacs.OtherContact1"/>
     </bindings>
     <bindings scd="~tns:Party52Choice">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.Party52Choice"/>
+      <class ref="org.coderic.iso20022.messages.pacs.Party52Choice"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification272">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.PartyIdentification272"/>
+      <class ref="org.coderic.iso20022.messages.pacs.PartyIdentification272"/>
     </bindings>
     <bindings scd="~tns:PersonIdentification18">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.PersonIdentification18"/>
+      <class ref="org.coderic.iso20022.messages.pacs.PersonIdentification18"/>
     </bindings>
     <bindings scd="~tns:PersonIdentificationSchemeName1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.PersonIdentificationSchemeName1Choice"/>
+      <class ref="org.coderic.iso20022.messages.pacs.PersonIdentificationSchemeName1Choice"/>
     </bindings>
     <bindings scd="~tns:PostalAddress27">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.PostalAddress27"/>
+      <class ref="org.coderic.iso20022.messages.pacs.PostalAddress27"/>
     </bindings>
     <bindings scd="~tns:ProxyAccountIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.ProxyAccountIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.pacs.ProxyAccountIdentification1"/>
     </bindings>
     <bindings scd="~tns:ProxyAccountType1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.ProxyAccountType1Choice"/>
+      <class ref="org.coderic.iso20022.messages.pacs.ProxyAccountType1Choice"/>
     </bindings>
     <bindings scd="~tns:SettlementInstruction14">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.SettlementInstruction14"/>
+      <class ref="org.coderic.iso20022.messages.pacs.SettlementInstruction14"/>
     </bindings>
     <bindings scd="~tns:SettlementTimeRequest2">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.SettlementTimeRequest2"/>
+      <class ref="org.coderic.iso20022.messages.pacs.SettlementTimeRequest2"/>
     </bindings>
     <bindings scd="~tns:SupplementaryData1">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.SupplementaryData1"/>
+      <class ref="org.coderic.iso20022.messages.pacs.SupplementaryData1"/>
     </bindings>
     <bindings scd="~tns:SupplementaryDataEnvelope1">
-      <class ref="org.coderic.iso20022.externalcodes.pacs.SupplementaryDataEnvelope1"/>
+      <class ref="org.coderic.iso20022.messages.pacs.SupplementaryDataEnvelope1"/>
     </bindings>
     <bindings scd="~tns:AddressType2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.pacs.AddressType2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.pacs.AddressType2Code"/>
     </bindings>
     <bindings scd="~tns:CreditDebitCode">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.pacs.CreditDebitCode"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.pacs.CreditDebitCode"/>
     </bindings>
     <bindings scd="~tns:NamePrefix2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.pacs.NamePrefix2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.pacs.NamePrefix2Code"/>
     </bindings>
     <bindings scd="~tns:PreferredContactMethod2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.pacs.PreferredContactMethod2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.pacs.PreferredContactMethod2Code"/>
     </bindings>
     <bindings scd="~tns:Priority3Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.pacs.Priority3Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.pacs.Priority3Code"/>
     </bindings>
     <bindings scd="~tns:SettlementMethod2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.pacs.SettlementMethod2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.pacs.SettlementMethod2Code"/>
     </bindings>
   </bindings>
 </bindings>
-

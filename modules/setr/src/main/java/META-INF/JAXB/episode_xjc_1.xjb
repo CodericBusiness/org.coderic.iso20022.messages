@@ -10,83 +10,82 @@ Generado el: 2024.03.15 a las 08:18:28 PM COT
   -->
   <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:setr.058.001.02">
     <schemaBindings map="false">
-      <package name="org.coderic.iso20022.externalcodes.setr"/>
+      <package name="org.coderic.iso20022.messages.setr"/>
     </schemaBindings>
     <bindings scd="~tns:Document">
-      <class ref="org.coderic.iso20022.externalcodes.setr.Document"/>
+      <class ref="org.coderic.iso20022.messages.setr.Document"/>
     </bindings>
     <bindings scd="~tns:AdditionalReference8">
-      <class ref="org.coderic.iso20022.externalcodes.setr.AdditionalReference8"/>
+      <class ref="org.coderic.iso20022.messages.setr.AdditionalReference8"/>
     </bindings>
     <bindings scd="~tns:AlternateSecurityIdentification7">
-      <class ref="org.coderic.iso20022.externalcodes.setr.AlternateSecurityIdentification7"/>
+      <class ref="org.coderic.iso20022.messages.setr.AlternateSecurityIdentification7"/>
     </bindings>
     <bindings scd="~tns:DateFormat42Choice">
-      <class ref="org.coderic.iso20022.externalcodes.setr.DateFormat42Choice"/>
+      <class ref="org.coderic.iso20022.messages.setr.DateFormat42Choice"/>
     </bindings>
     <bindings scd="~tns:Extension1">
-      <class ref="org.coderic.iso20022.externalcodes.setr.Extension1"/>
+      <class ref="org.coderic.iso20022.messages.setr.Extension1"/>
     </bindings>
     <bindings scd="~tns:FinancialInstrument57">
-      <class ref="org.coderic.iso20022.externalcodes.setr.FinancialInstrument57"/>
+      <class ref="org.coderic.iso20022.messages.setr.FinancialInstrument57"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.setr.GenericIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.setr.GenericIdentification1"/>
     </bindings>
     <bindings scd="~tns:IdentificationSource1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.setr.IdentificationSource1Choice"/>
+      <class ref="org.coderic.iso20022.messages.setr.IdentificationSource1Choice"/>
     </bindings>
     <bindings scd="~tns:InvestmentAccount58">
-      <class ref="org.coderic.iso20022.externalcodes.setr.InvestmentAccount58"/>
+      <class ref="org.coderic.iso20022.messages.setr.InvestmentAccount58"/>
     </bindings>
     <bindings scd="~tns:InvestmentFundOrder8">
-      <class ref="org.coderic.iso20022.externalcodes.setr.InvestmentFundOrder8"/>
+      <class ref="org.coderic.iso20022.messages.setr.InvestmentFundOrder8"/>
     </bindings>
     <bindings scd="~tns:MessageAndBusinessReference10">
-      <class ref="org.coderic.iso20022.externalcodes.setr.MessageAndBusinessReference10"/>
+      <class ref="org.coderic.iso20022.messages.setr.MessageAndBusinessReference10"/>
     </bindings>
     <bindings scd="~tns:MessageIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.setr.MessageIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.setr.MessageIdentification1"/>
     </bindings>
     <bindings scd="~tns:NameAndAddress5">
-      <class ref="org.coderic.iso20022.externalcodes.setr.NameAndAddress5"/>
+      <class ref="org.coderic.iso20022.messages.setr.NameAndAddress5"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification113">
-      <class ref="org.coderic.iso20022.externalcodes.setr.PartyIdentification113"/>
+      <class ref="org.coderic.iso20022.messages.setr.PartyIdentification113"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification90Choice">
-      <class ref="org.coderic.iso20022.externalcodes.setr.PartyIdentification90Choice"/>
+      <class ref="org.coderic.iso20022.messages.setr.PartyIdentification90Choice"/>
     </bindings>
     <bindings scd="~tns:PostalAddress1">
-      <class ref="org.coderic.iso20022.externalcodes.setr.PostalAddress1"/>
+      <class ref="org.coderic.iso20022.messages.setr.PostalAddress1"/>
     </bindings>
     <bindings scd="~tns:References62Choice">
-      <class ref="org.coderic.iso20022.externalcodes.setr.References62Choice"/>
+      <class ref="org.coderic.iso20022.messages.setr.References62Choice"/>
     </bindings>
     <bindings scd="~tns:RequestForOrderConfirmationStatusReportV02">
-      <class ref="org.coderic.iso20022.externalcodes.setr.RequestForOrderConfirmationStatusReportV02"/>
+      <class ref="org.coderic.iso20022.messages.setr.RequestForOrderConfirmationStatusReportV02"/>
     </bindings>
     <bindings scd="~tns:SecurityIdentification25Choice">
-      <class ref="org.coderic.iso20022.externalcodes.setr.SecurityIdentification25Choice"/>
+      <class ref="org.coderic.iso20022.messages.setr.SecurityIdentification25Choice"/>
     </bindings>
     <bindings scd="~tns:Series1">
-      <class ref="org.coderic.iso20022.externalcodes.setr.Series1"/>
+      <class ref="org.coderic.iso20022.messages.setr.Series1"/>
     </bindings>
     <bindings scd="~tns:SubAccount6">
-      <class ref="org.coderic.iso20022.externalcodes.setr.SubAccount6"/>
+      <class ref="org.coderic.iso20022.messages.setr.SubAccount6"/>
     </bindings>
     <bindings scd="~tns:AddressType2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.setr.AddressType2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.setr.AddressType2Code"/>
     </bindings>
     <bindings scd="~tns:DistributionPolicy1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.setr.DistributionPolicy1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.setr.DistributionPolicy1Code"/>
     </bindings>
     <bindings scd="~tns:FormOfSecurity1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.setr.FormOfSecurity1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.setr.FormOfSecurity1Code"/>
     </bindings>
     <bindings scd="~tns:OrderOriginatorEligibility1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.setr.OrderOriginatorEligibility1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.setr.OrderOriginatorEligibility1Code"/>
     </bindings>
   </bindings>
 </bindings>
-

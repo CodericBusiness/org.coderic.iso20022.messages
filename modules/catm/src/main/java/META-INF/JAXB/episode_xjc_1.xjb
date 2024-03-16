@@ -10,167 +10,166 @@ Generado el: 2024.03.15 a las 08:18:18 PM COT
   -->
   <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:catm.008.001.07">
     <schemaBindings map="false">
-      <package name="org.coderic.iso20022.externalcodes.catm"/>
+      <package name="org.coderic.iso20022.messages.catm"/>
     </schemaBindings>
     <bindings scd="~tns:Document">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Document"/>
+      <class ref="org.coderic.iso20022.messages.catm.Document"/>
     </bindings>
     <bindings scd="~tns:AlgorithmIdentification31">
-      <class ref="org.coderic.iso20022.externalcodes.catm.AlgorithmIdentification31"/>
+      <class ref="org.coderic.iso20022.messages.catm.AlgorithmIdentification31"/>
     </bindings>
     <bindings scd="~tns:AlgorithmIdentification32">
-      <class ref="org.coderic.iso20022.externalcodes.catm.AlgorithmIdentification32"/>
+      <class ref="org.coderic.iso20022.messages.catm.AlgorithmIdentification32"/>
     </bindings>
     <bindings scd="~tns:AlgorithmIdentification33">
-      <class ref="org.coderic.iso20022.externalcodes.catm.AlgorithmIdentification33"/>
+      <class ref="org.coderic.iso20022.messages.catm.AlgorithmIdentification33"/>
     </bindings>
     <bindings scd="~tns:AlgorithmIdentification34">
-      <class ref="org.coderic.iso20022.externalcodes.catm.AlgorithmIdentification34"/>
+      <class ref="org.coderic.iso20022.messages.catm.AlgorithmIdentification34"/>
     </bindings>
     <bindings scd="~tns:AlgorithmIdentification35">
-      <class ref="org.coderic.iso20022.externalcodes.catm.AlgorithmIdentification35"/>
+      <class ref="org.coderic.iso20022.messages.catm.AlgorithmIdentification35"/>
     </bindings>
     <bindings scd="~tns:AlgorithmIdentification36">
-      <class ref="org.coderic.iso20022.externalcodes.catm.AlgorithmIdentification36"/>
+      <class ref="org.coderic.iso20022.messages.catm.AlgorithmIdentification36"/>
     </bindings>
     <bindings scd="~tns:AuthenticatedData10">
-      <class ref="org.coderic.iso20022.externalcodes.catm.AuthenticatedData10"/>
+      <class ref="org.coderic.iso20022.messages.catm.AuthenticatedData10"/>
     </bindings>
     <bindings scd="~tns:CertificateIssuer1">
-      <class ref="org.coderic.iso20022.externalcodes.catm.CertificateIssuer1"/>
+      <class ref="org.coderic.iso20022.messages.catm.CertificateIssuer1"/>
     </bindings>
     <bindings scd="~tns:CertificateManagementResponse3">
-      <class ref="org.coderic.iso20022.externalcodes.catm.CertificateManagementResponse3"/>
+      <class ref="org.coderic.iso20022.messages.catm.CertificateManagementResponse3"/>
     </bindings>
     <bindings scd="~tns:CertificateManagementResponseV07">
-      <class ref="org.coderic.iso20022.externalcodes.catm.CertificateManagementResponseV07"/>
+      <class ref="org.coderic.iso20022.messages.catm.CertificateManagementResponseV07"/>
     </bindings>
     <bindings scd="~tns:ContentInformationType38">
-      <class ref="org.coderic.iso20022.externalcodes.catm.ContentInformationType38"/>
+      <class ref="org.coderic.iso20022.messages.catm.ContentInformationType38"/>
     </bindings>
     <bindings scd="~tns:EncapsulatedContent3">
-      <class ref="org.coderic.iso20022.externalcodes.catm.EncapsulatedContent3"/>
+      <class ref="org.coderic.iso20022.messages.catm.EncapsulatedContent3"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification176">
-      <class ref="org.coderic.iso20022.externalcodes.catm.GenericIdentification176"/>
+      <class ref="org.coderic.iso20022.messages.catm.GenericIdentification176"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification177">
-      <class ref="org.coderic.iso20022.externalcodes.catm.GenericIdentification177"/>
+      <class ref="org.coderic.iso20022.messages.catm.GenericIdentification177"/>
     </bindings>
     <bindings scd="~tns:GenericInformation1">
-      <class ref="org.coderic.iso20022.externalcodes.catm.GenericInformation1"/>
+      <class ref="org.coderic.iso20022.messages.catm.GenericInformation1"/>
     </bindings>
     <bindings scd="~tns:Geolocation1">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Geolocation1"/>
+      <class ref="org.coderic.iso20022.messages.catm.Geolocation1"/>
     </bindings>
     <bindings scd="~tns:GeolocationGeographicCoordinates1">
-      <class ref="org.coderic.iso20022.externalcodes.catm.GeolocationGeographicCoordinates1"/>
+      <class ref="org.coderic.iso20022.messages.catm.GeolocationGeographicCoordinates1"/>
     </bindings>
     <bindings scd="~tns:GeolocationUTMCoordinates1">
-      <class ref="org.coderic.iso20022.externalcodes.catm.GeolocationUTMCoordinates1"/>
+      <class ref="org.coderic.iso20022.messages.catm.GeolocationUTMCoordinates1"/>
     </bindings>
     <bindings scd="~tns:IssuerAndSerialNumber2">
-      <class ref="org.coderic.iso20022.externalcodes.catm.IssuerAndSerialNumber2"/>
+      <class ref="org.coderic.iso20022.messages.catm.IssuerAndSerialNumber2"/>
     </bindings>
     <bindings scd="~tns:KEK9">
-      <class ref="org.coderic.iso20022.externalcodes.catm.KEK9"/>
+      <class ref="org.coderic.iso20022.messages.catm.KEK9"/>
     </bindings>
     <bindings scd="~tns:KEKIdentifier7">
-      <class ref="org.coderic.iso20022.externalcodes.catm.KEKIdentifier7"/>
+      <class ref="org.coderic.iso20022.messages.catm.KEKIdentifier7"/>
     </bindings>
     <bindings scd="~tns:KeyTransport10">
-      <class ref="org.coderic.iso20022.externalcodes.catm.KeyTransport10"/>
+      <class ref="org.coderic.iso20022.messages.catm.KeyTransport10"/>
     </bindings>
     <bindings scd="~tns:NetworkParameters7">
-      <class ref="org.coderic.iso20022.externalcodes.catm.NetworkParameters7"/>
+      <class ref="org.coderic.iso20022.messages.catm.NetworkParameters7"/>
     </bindings>
     <bindings scd="~tns:NetworkParameters9">
-      <class ref="org.coderic.iso20022.externalcodes.catm.NetworkParameters9"/>
+      <class ref="org.coderic.iso20022.messages.catm.NetworkParameters9"/>
     </bindings>
     <bindings scd="~tns:Parameter12">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Parameter12"/>
+      <class ref="org.coderic.iso20022.messages.catm.Parameter12"/>
     </bindings>
     <bindings scd="~tns:Parameter16">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Parameter16"/>
+      <class ref="org.coderic.iso20022.messages.catm.Parameter16"/>
     </bindings>
     <bindings scd="~tns:Parameter17">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Parameter17"/>
+      <class ref="org.coderic.iso20022.messages.catm.Parameter17"/>
     </bindings>
     <bindings scd="~tns:Parameter18">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Parameter18"/>
+      <class ref="org.coderic.iso20022.messages.catm.Parameter18"/>
     </bindings>
     <bindings scd="~tns:Parameter7">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Parameter7"/>
+      <class ref="org.coderic.iso20022.messages.catm.Parameter7"/>
     </bindings>
     <bindings scd="~tns:Recipient13Choice">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Recipient13Choice"/>
+      <class ref="org.coderic.iso20022.messages.catm.Recipient13Choice"/>
     </bindings>
     <bindings scd="~tns:Recipient15Choice">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Recipient15Choice"/>
+      <class ref="org.coderic.iso20022.messages.catm.Recipient15Choice"/>
     </bindings>
     <bindings scd="~tns:RelativeDistinguishedName1">
-      <class ref="org.coderic.iso20022.externalcodes.catm.RelativeDistinguishedName1"/>
+      <class ref="org.coderic.iso20022.messages.catm.RelativeDistinguishedName1"/>
     </bindings>
     <bindings scd="~tns:ResponseType6">
-      <class ref="org.coderic.iso20022.externalcodes.catm.ResponseType6"/>
+      <class ref="org.coderic.iso20022.messages.catm.ResponseType6"/>
     </bindings>
     <bindings scd="~tns:SignedData9">
-      <class ref="org.coderic.iso20022.externalcodes.catm.SignedData9"/>
+      <class ref="org.coderic.iso20022.messages.catm.SignedData9"/>
     </bindings>
     <bindings scd="~tns:Signer8">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Signer8"/>
+      <class ref="org.coderic.iso20022.messages.catm.Signer8"/>
     </bindings>
     <bindings scd="~tns:TMSHeader1">
-      <class ref="org.coderic.iso20022.externalcodes.catm.TMSHeader1"/>
+      <class ref="org.coderic.iso20022.messages.catm.TMSHeader1"/>
     </bindings>
     <bindings scd="~tns:Traceability8">
-      <class ref="org.coderic.iso20022.externalcodes.catm.Traceability8"/>
+      <class ref="org.coderic.iso20022.messages.catm.Traceability8"/>
     </bindings>
     <bindings scd="~tns:Algorithm26Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.Algorithm26Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.Algorithm26Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm27Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.Algorithm27Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.Algorithm27Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm28Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.Algorithm28Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.Algorithm28Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm29Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.Algorithm29Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.Algorithm29Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm7Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.Algorithm7Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.Algorithm7Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm8Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.Algorithm8Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.Algorithm8Code"/>
     </bindings>
     <bindings scd="~tns:AttributeType1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.AttributeType1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.AttributeType1Code"/>
     </bindings>
     <bindings scd="~tns:BytePadding1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.BytePadding1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.BytePadding1Code"/>
     </bindings>
     <bindings scd="~tns:CardPaymentServiceType10Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.CardPaymentServiceType10Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.CardPaymentServiceType10Code"/>
     </bindings>
     <bindings scd="~tns:ContentType2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.ContentType2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.ContentType2Code"/>
     </bindings>
     <bindings scd="~tns:EncryptionFormat2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.EncryptionFormat2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.EncryptionFormat2Code"/>
     </bindings>
     <bindings scd="~tns:NetworkType1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.NetworkType1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.NetworkType1Code"/>
     </bindings>
     <bindings scd="~tns:PartyType33Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.PartyType33Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.PartyType33Code"/>
     </bindings>
     <bindings scd="~tns:Response2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.Response2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.Response2Code"/>
     </bindings>
     <bindings scd="~tns:ResultDetail3Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.catm.ResultDetail3Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.catm.ResultDetail3Code"/>
     </bindings>
   </bindings>
 </bindings>
-

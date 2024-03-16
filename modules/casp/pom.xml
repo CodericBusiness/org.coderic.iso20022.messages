@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.coderic.iso20022.externalcodes</groupId>
+    <groupId>org.coderic.iso20022.messages</groupId>
   <artifactId>core</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -29,7 +29,7 @@
           </execution>
         </executions>
         <configuration>
-          <packageName>org.coderic.iso20022.externalcodes.casp</packageName>
+          <packageName>org.coderic.iso20022.messages.casp</packageName>
           <sources>
             <source>${project.basedir}/src/main/xsd/casp/casp.017.001.06.xsd</source>
           </sources>

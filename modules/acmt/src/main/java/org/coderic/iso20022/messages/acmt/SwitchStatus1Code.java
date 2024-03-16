@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.acmt;
+package org.coderic.iso20022.messages.acmt;
 
 import jakarta.xml.bind.annotation.XmlEnum;
 import jakarta.xml.bind.annotation.XmlType;

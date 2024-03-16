@@ -6,4 +6,4 @@
 //
 
 @jakarta.xml.bind.annotation.XmlSchema(namespace = "urn:iso:std:iso:20022:tech:xsd:casr.002.001.02", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
-package org.coderic.iso20022.externalcodes.casr;
+package org.coderic.iso20022.messages.casr;

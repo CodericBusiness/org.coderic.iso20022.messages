@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.remt;
+package org.coderic.iso20022.messages.remt;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;

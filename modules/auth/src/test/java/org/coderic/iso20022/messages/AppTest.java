@@ -1,4 +1,4 @@
-package org.coderic.iso20022.externalcodes;
+package org.coderic.iso20022.messages;
 
 import junit.framework.TestCase;
 import junit.framework.TestSuite;

@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.cafc;
+package org.coderic.iso20022.messages.cafc;
 
 import javax.xml.datatype.XMLGregorianCalendar;
 import jakarta.xml.bind.annotation.XmlAccessType;

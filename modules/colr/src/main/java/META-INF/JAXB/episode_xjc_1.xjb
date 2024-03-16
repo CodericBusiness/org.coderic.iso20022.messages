@@ -10,113 +10,112 @@ Generado el: 2024.03.15 a las 08:18:20 PM COT
   -->
   <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:colr.024.001.01">
     <schemaBindings map="false">
-      <package name="org.coderic.iso20022.externalcodes.colr"/>
+      <package name="org.coderic.iso20022.messages.colr"/>
     </schemaBindings>
     <bindings scd="~tns:Document">
-      <class ref="org.coderic.iso20022.externalcodes.colr.Document"/>
+      <class ref="org.coderic.iso20022.messages.colr.Document"/>
     </bindings>
     <bindings scd="~tns:ActiveCurrencyAndAmount">
-      <class ref="org.coderic.iso20022.externalcodes.colr.ActiveCurrencyAndAmount"/>
+      <class ref="org.coderic.iso20022.messages.colr.ActiveCurrencyAndAmount"/>
     </bindings>
     <bindings scd="~tns:ActiveOrHistoricCurrencyAndAmount">
-      <class ref="org.coderic.iso20022.externalcodes.colr.ActiveOrHistoricCurrencyAndAmount"/>
+      <class ref="org.coderic.iso20022.messages.colr.ActiveOrHistoricCurrencyAndAmount"/>
     </bindings>
     <bindings scd="~tns:AlternatePartyIdentification7">
-      <class ref="org.coderic.iso20022.externalcodes.colr.AlternatePartyIdentification7"/>
+      <class ref="org.coderic.iso20022.messages.colr.AlternatePartyIdentification7"/>
     </bindings>
     <bindings scd="~tns:AmountAndDirection49">
-      <class ref="org.coderic.iso20022.externalcodes.colr.AmountAndDirection49"/>
+      <class ref="org.coderic.iso20022.messages.colr.AmountAndDirection49"/>
     </bindings>
     <bindings scd="~tns:BlockChainAddressWallet3">
-      <class ref="org.coderic.iso20022.externalcodes.colr.BlockChainAddressWallet3"/>
+      <class ref="org.coderic.iso20022.messages.colr.BlockChainAddressWallet3"/>
     </bindings>
     <bindings scd="~tns:CollateralParties8">
-      <class ref="org.coderic.iso20022.externalcodes.colr.CollateralParties8"/>
+      <class ref="org.coderic.iso20022.messages.colr.CollateralParties8"/>
     </bindings>
     <bindings scd="~tns:CollateralTransactionType1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.colr.CollateralTransactionType1Choice"/>
+      <class ref="org.coderic.iso20022.messages.colr.CollateralTransactionType1Choice"/>
     </bindings>
     <bindings scd="~tns:DateAndDateTime2Choice">
-      <class ref="org.coderic.iso20022.externalcodes.colr.DateAndDateTime2Choice"/>
+      <class ref="org.coderic.iso20022.messages.colr.DateAndDateTime2Choice"/>
     </bindings>
     <bindings scd="~tns:ExposureType23Choice">
-      <class ref="org.coderic.iso20022.externalcodes.colr.ExposureType23Choice"/>
+      <class ref="org.coderic.iso20022.messages.colr.ExposureType23Choice"/>
     </bindings>
     <bindings scd="~tns:ForeignExchangeTerms23">
-      <class ref="org.coderic.iso20022.externalcodes.colr.ForeignExchangeTerms23"/>
+      <class ref="org.coderic.iso20022.messages.colr.ForeignExchangeTerms23"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.colr.GenericIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.colr.GenericIdentification1"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification30">
-      <class ref="org.coderic.iso20022.externalcodes.colr.GenericIdentification30"/>
+      <class ref="org.coderic.iso20022.messages.colr.GenericIdentification30"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification36">
-      <class ref="org.coderic.iso20022.externalcodes.colr.GenericIdentification36"/>
+      <class ref="org.coderic.iso20022.messages.colr.GenericIdentification36"/>
     </bindings>
     <bindings scd="~tns:IdentificationType42Choice">
-      <class ref="org.coderic.iso20022.externalcodes.colr.IdentificationType42Choice"/>
+      <class ref="org.coderic.iso20022.messages.colr.IdentificationType42Choice"/>
     </bindings>
     <bindings scd="~tns:NameAndAddress5">
-      <class ref="org.coderic.iso20022.externalcodes.colr.NameAndAddress5"/>
+      <class ref="org.coderic.iso20022.messages.colr.NameAndAddress5"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification120Choice">
-      <class ref="org.coderic.iso20022.externalcodes.colr.PartyIdentification120Choice"/>
+      <class ref="org.coderic.iso20022.messages.colr.PartyIdentification120Choice"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification136">
-      <class ref="org.coderic.iso20022.externalcodes.colr.PartyIdentification136"/>
+      <class ref="org.coderic.iso20022.messages.colr.PartyIdentification136"/>
     </bindings>
     <bindings scd="~tns:PartyIdentificationAndAccount193">
-      <class ref="org.coderic.iso20022.externalcodes.colr.PartyIdentificationAndAccount193"/>
+      <class ref="org.coderic.iso20022.messages.colr.PartyIdentificationAndAccount193"/>
     </bindings>
     <bindings scd="~tns:PartyIdentificationAndAccount202">
-      <class ref="org.coderic.iso20022.externalcodes.colr.PartyIdentificationAndAccount202"/>
+      <class ref="org.coderic.iso20022.messages.colr.PartyIdentificationAndAccount202"/>
     </bindings>
     <bindings scd="~tns:PartyIdentificationAndAccount203">
-      <class ref="org.coderic.iso20022.externalcodes.colr.PartyIdentificationAndAccount203"/>
+      <class ref="org.coderic.iso20022.messages.colr.PartyIdentificationAndAccount203"/>
     </bindings>
     <bindings scd="~tns:PostalAddress1">
-      <class ref="org.coderic.iso20022.externalcodes.colr.PostalAddress1"/>
+      <class ref="org.coderic.iso20022.messages.colr.PostalAddress1"/>
     </bindings>
     <bindings scd="~tns:SecuritiesAccount19">
-      <class ref="org.coderic.iso20022.externalcodes.colr.SecuritiesAccount19"/>
+      <class ref="org.coderic.iso20022.messages.colr.SecuritiesAccount19"/>
     </bindings>
     <bindings scd="~tns:SupplementaryData1">
-      <class ref="org.coderic.iso20022.externalcodes.colr.SupplementaryData1"/>
+      <class ref="org.coderic.iso20022.messages.colr.SupplementaryData1"/>
     </bindings>
     <bindings scd="~tns:SupplementaryDataEnvelope1">
-      <class ref="org.coderic.iso20022.externalcodes.colr.SupplementaryDataEnvelope1"/>
+      <class ref="org.coderic.iso20022.messages.colr.SupplementaryDataEnvelope1"/>
     </bindings>
     <bindings scd="~tns:TradingPartyCapacity5Choice">
-      <class ref="org.coderic.iso20022.externalcodes.colr.TradingPartyCapacity5Choice"/>
+      <class ref="org.coderic.iso20022.messages.colr.TradingPartyCapacity5Choice"/>
     </bindings>
     <bindings scd="~tns:TransactionIdentifications44">
-      <class ref="org.coderic.iso20022.externalcodes.colr.TransactionIdentifications44"/>
+      <class ref="org.coderic.iso20022.messages.colr.TransactionIdentifications44"/>
     </bindings>
     <bindings scd="~tns:TripartyCollateralAllegementNotificationCancellationAdviceV01">
-      <class ref="org.coderic.iso20022.externalcodes.colr.TripartyCollateralAllegementNotificationCancellationAdviceV01"/>
+      <class ref="org.coderic.iso20022.messages.colr.TripartyCollateralAllegementNotificationCancellationAdviceV01"/>
     </bindings>
     <bindings scd="~tns:AddressType2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.colr.AddressType2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.colr.AddressType2Code"/>
     </bindings>
     <bindings scd="~tns:CollateralRole1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.colr.CollateralRole1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.colr.CollateralRole1Code"/>
     </bindings>
     <bindings scd="~tns:CollateralTransactionType1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.colr.CollateralTransactionType1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.colr.CollateralTransactionType1Code"/>
     </bindings>
     <bindings scd="~tns:CreditDebitCode">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.colr.CreditDebitCode"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.colr.CreditDebitCode"/>
     </bindings>
     <bindings scd="~tns:ExposureType14Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.colr.ExposureType14Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.colr.ExposureType14Code"/>
     </bindings>
     <bindings scd="~tns:TradingCapacity7Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.colr.TradingCapacity7Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.colr.TradingCapacity7Code"/>
     </bindings>
     <bindings scd="~tns:TypeOfIdentification1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.colr.TypeOfIdentification1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.colr.TypeOfIdentification1Code"/>
     </bindings>
   </bindings>
 </bindings>
-

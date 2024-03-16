@@ -4,7 +4,7 @@
          xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.coderic.iso20022.externalcodes</groupId>
+        <groupId>org.coderic.iso20022.messages</groupId>
         <artifactId>core</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
@@ -28,7 +28,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <packageName>org.coderic.iso20022.externalcodes.auth</packageName>
+                    <packageName>org.coderic.iso20022.messages.auth</packageName>
                     <sources>
                         <source>${project.basedir}/src/main/xsd/auth/auth.113.001.01.xsd</source>
                     </sources>

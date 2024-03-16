@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.tsmt;
+package org.coderic.iso20022.messages.tsmt;
 
 import javax.xml.namespace.QName;
 import jakarta.xml.bind.JAXBElement;
@@ -18,7 +18,7 @@ import jakarta.xml.bind.annotation.XmlRegistry;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the org.coderic.iso20022.externalcodes.tsmt package. 
+ * generated in the org.coderic.iso20022.messages.tsmt package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -41,7 +41,7 @@ public class ObjectFactory {
     private final static QName _EventDescription1GovngCtrct_QNAME = new QName("urn:iso:std:iso:20022:tech:xsd:tsmt.055.001.01", "GovngCtrct");
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: org.coderic.iso20022.externalcodes.tsmt
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: org.coderic.iso20022.messages.tsmt
      * 
      */
     public ObjectFactory() {

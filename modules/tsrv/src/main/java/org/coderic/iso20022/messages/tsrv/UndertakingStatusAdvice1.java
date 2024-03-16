@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.tsrv;
+package org.coderic.iso20022.messages.tsrv;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

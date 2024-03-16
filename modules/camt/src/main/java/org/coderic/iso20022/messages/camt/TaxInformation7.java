@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.camt;
+package org.coderic.iso20022.messages.camt;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

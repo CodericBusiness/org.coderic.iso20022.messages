@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.caaa;
+package org.coderic.iso20022.messages.caaa;
 
 import jakarta.xml.bind.annotation.XmlEnum;
 import jakarta.xml.bind.annotation.XmlEnumValue;

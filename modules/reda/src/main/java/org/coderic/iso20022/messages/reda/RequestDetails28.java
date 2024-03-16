@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.reda;
+package org.coderic.iso20022.messages.reda;
 
 import java.util.ArrayList;
 import java.util.List;

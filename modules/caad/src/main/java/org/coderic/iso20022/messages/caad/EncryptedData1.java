@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.caad;
+package org.coderic.iso20022.messages.caad;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.casp;
+package org.coderic.iso20022.messages.casp;
 
 import java.math.BigDecimal;
 import jakarta.xml.bind.annotation.XmlAccessType;

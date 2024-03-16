@@ -6,4 +6,4 @@
 //
 
 @jakarta.xml.bind.annotation.XmlSchema(namespace = "urn:iso:std:iso:20022:tech:xsd:tsrv.019.001.01", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
-package org.coderic.iso20022.externalcodes.tsrv;
+package org.coderic.iso20022.messages.tsrv;

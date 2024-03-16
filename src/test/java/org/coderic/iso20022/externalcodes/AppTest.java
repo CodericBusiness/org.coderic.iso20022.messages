@@ -1,4 +1,4 @@
-package org.coderic.iso20022.externalcodes;
+package org.coderic.iso20022.messages;
 
 import static org.junit.Assert.assertTrue;
 

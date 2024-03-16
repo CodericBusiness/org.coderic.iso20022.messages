@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.remt;
+package org.coderic.iso20022.messages.remt;
 
 import java.util.ArrayList;
 import java.util.List;

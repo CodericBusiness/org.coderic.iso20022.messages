@@ -10,50 +10,49 @@ Generado el: 2024.03.15 a las 08:18:21 PM COT
   -->
   <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:fxtr.038.001.01">
     <schemaBindings map="false">
-      <package name="org.coderic.iso20022.externalcodes.fxtr"/>
+      <package name="org.coderic.iso20022.messages.fxtr"/>
     </schemaBindings>
     <bindings scd="~tns:Document">
-      <class ref="org.coderic.iso20022.externalcodes.fxtr.Document"/>
+      <class ref="org.coderic.iso20022.messages.fxtr.Document"/>
     </bindings>
     <bindings scd="~tns:AdditionalInformation5">
-      <class ref="org.coderic.iso20022.externalcodes.fxtr.AdditionalInformation5"/>
+      <class ref="org.coderic.iso20022.messages.fxtr.AdditionalInformation5"/>
     </bindings>
     <bindings scd="~tns:ForeignExchangeTradeConfirmationStatusAdviceAcknowledgementV01">
-      <class ref="org.coderic.iso20022.externalcodes.fxtr.ForeignExchangeTradeConfirmationStatusAdviceAcknowledgementV01"/>
+      <class ref="org.coderic.iso20022.messages.fxtr.ForeignExchangeTradeConfirmationStatusAdviceAcknowledgementV01"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.fxtr.GenericIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.fxtr.GenericIdentification1"/>
     </bindings>
     <bindings scd="~tns:MarketIdentification1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.fxtr.MarketIdentification1Choice"/>
+      <class ref="org.coderic.iso20022.messages.fxtr.MarketIdentification1Choice"/>
     </bindings>
     <bindings scd="~tns:MarketIdentification88">
-      <class ref="org.coderic.iso20022.externalcodes.fxtr.MarketIdentification88"/>
+      <class ref="org.coderic.iso20022.messages.fxtr.MarketIdentification88"/>
     </bindings>
     <bindings scd="~tns:MarketType13Choice">
-      <class ref="org.coderic.iso20022.externalcodes.fxtr.MarketType13Choice"/>
+      <class ref="org.coderic.iso20022.messages.fxtr.MarketType13Choice"/>
     </bindings>
     <bindings scd="~tns:MessageIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.fxtr.MessageIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.fxtr.MessageIdentification1"/>
     </bindings>
     <bindings scd="~tns:SupplementaryData1">
-      <class ref="org.coderic.iso20022.externalcodes.fxtr.SupplementaryData1"/>
+      <class ref="org.coderic.iso20022.messages.fxtr.SupplementaryData1"/>
     </bindings>
     <bindings scd="~tns:SupplementaryDataEnvelope1">
-      <class ref="org.coderic.iso20022.externalcodes.fxtr.SupplementaryDataEnvelope1"/>
+      <class ref="org.coderic.iso20022.messages.fxtr.SupplementaryDataEnvelope1"/>
     </bindings>
     <bindings scd="~tns:AffirmStatus1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.fxtr.AffirmStatus1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.fxtr.AffirmStatus1Code"/>
     </bindings>
     <bindings scd="~tns:MarketType8Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.fxtr.MarketType8Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.fxtr.MarketType8Code"/>
     </bindings>
     <bindings scd="~tns:TradeConfirmationStatus1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.fxtr.TradeConfirmationStatus1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.fxtr.TradeConfirmationStatus1Code"/>
     </bindings>
     <bindings scd="~tns:TradingModeType1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.fxtr.TradingModeType1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.fxtr.TradingModeType1Code"/>
     </bindings>
   </bindings>
 </bindings>
-

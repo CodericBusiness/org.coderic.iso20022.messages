@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.pain;
+package org.coderic.iso20022.messages.pain;
 
 import jakarta.xml.bind.annotation.XmlEnum;
 import jakarta.xml.bind.annotation.XmlType;

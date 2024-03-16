@@ -10,311 +10,310 @@ Generado el: 2024.03.15 a las 08:18:13 PM COT
   -->
   <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:cain.028.001.02">
     <schemaBindings map="false">
-      <package name="org.coderic.iso20022.externalcodes.cain"/>
+      <package name="org.coderic.iso20022.messages.cain"/>
     </schemaBindings>
     <bindings scd="~tns:Document">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Document"/>
+      <class ref="org.coderic.iso20022.messages.cain.Document"/>
     </bindings>
     <bindings scd="~tns:AdditionalData1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.AdditionalData1"/>
+      <class ref="org.coderic.iso20022.messages.cain.AdditionalData1"/>
     </bindings>
     <bindings scd="~tns:AdditionalFee2">
-      <class ref="org.coderic.iso20022.externalcodes.cain.AdditionalFee2"/>
+      <class ref="org.coderic.iso20022.messages.cain.AdditionalFee2"/>
     </bindings>
     <bindings scd="~tns:AdditionalInformation20">
-      <class ref="org.coderic.iso20022.externalcodes.cain.AdditionalInformation20"/>
+      <class ref="org.coderic.iso20022.messages.cain.AdditionalInformation20"/>
     </bindings>
     <bindings scd="~tns:AdditionalInformation29">
-      <class ref="org.coderic.iso20022.externalcodes.cain.AdditionalInformation29"/>
+      <class ref="org.coderic.iso20022.messages.cain.AdditionalInformation29"/>
     </bindings>
     <bindings scd="~tns:AlgorithmIdentification25">
-      <class ref="org.coderic.iso20022.externalcodes.cain.AlgorithmIdentification25"/>
+      <class ref="org.coderic.iso20022.messages.cain.AlgorithmIdentification25"/>
     </bindings>
     <bindings scd="~tns:AlgorithmIdentification26">
-      <class ref="org.coderic.iso20022.externalcodes.cain.AlgorithmIdentification26"/>
+      <class ref="org.coderic.iso20022.messages.cain.AlgorithmIdentification26"/>
     </bindings>
     <bindings scd="~tns:AlgorithmIdentification27">
-      <class ref="org.coderic.iso20022.externalcodes.cain.AlgorithmIdentification27"/>
+      <class ref="org.coderic.iso20022.messages.cain.AlgorithmIdentification27"/>
     </bindings>
     <bindings scd="~tns:AlgorithmIdentification28">
-      <class ref="org.coderic.iso20022.externalcodes.cain.AlgorithmIdentification28"/>
+      <class ref="org.coderic.iso20022.messages.cain.AlgorithmIdentification28"/>
     </bindings>
     <bindings scd="~tns:Amount15">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Amount15"/>
+      <class ref="org.coderic.iso20022.messages.cain.Amount15"/>
     </bindings>
     <bindings scd="~tns:ApprovalEntity2">
-      <class ref="org.coderic.iso20022.externalcodes.cain.ApprovalEntity2"/>
+      <class ref="org.coderic.iso20022.messages.cain.ApprovalEntity2"/>
     </bindings>
     <bindings scd="~tns:BatchManagementInformation1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.BatchManagementInformation1"/>
+      <class ref="org.coderic.iso20022.messages.cain.BatchManagementInformation1"/>
     </bindings>
     <bindings scd="~tns:CardData10">
-      <class ref="org.coderic.iso20022.externalcodes.cain.CardData10"/>
+      <class ref="org.coderic.iso20022.messages.cain.CardData10"/>
     </bindings>
     <bindings scd="~tns:CardProgrammeMode3">
-      <class ref="org.coderic.iso20022.externalcodes.cain.CardProgrammeMode3"/>
+      <class ref="org.coderic.iso20022.messages.cain.CardProgrammeMode3"/>
     </bindings>
     <bindings scd="~tns:CertificateIssuer1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.CertificateIssuer1"/>
+      <class ref="org.coderic.iso20022.messages.cain.CertificateIssuer1"/>
     </bindings>
     <bindings scd="~tns:ChargeBackResponse2">
-      <class ref="org.coderic.iso20022.externalcodes.cain.ChargeBackResponse2"/>
+      <class ref="org.coderic.iso20022.messages.cain.ChargeBackResponse2"/>
     </bindings>
     <bindings scd="~tns:ChargeBackResponseV02">
-      <class ref="org.coderic.iso20022.externalcodes.cain.ChargeBackResponseV02"/>
+      <class ref="org.coderic.iso20022.messages.cain.ChargeBackResponseV02"/>
     </bindings>
     <bindings scd="~tns:ContentInformationType20">
-      <class ref="org.coderic.iso20022.externalcodes.cain.ContentInformationType20"/>
+      <class ref="org.coderic.iso20022.messages.cain.ContentInformationType20"/>
     </bindings>
     <bindings scd="~tns:Context16">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Context16"/>
+      <class ref="org.coderic.iso20022.messages.cain.Context16"/>
     </bindings>
     <bindings scd="~tns:DetailedAmount22">
-      <class ref="org.coderic.iso20022.externalcodes.cain.DetailedAmount22"/>
+      <class ref="org.coderic.iso20022.messages.cain.DetailedAmount22"/>
     </bindings>
     <bindings scd="~tns:DisputeData3">
-      <class ref="org.coderic.iso20022.externalcodes.cain.DisputeData3"/>
+      <class ref="org.coderic.iso20022.messages.cain.DisputeData3"/>
     </bindings>
     <bindings scd="~tns:DisputeIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.DisputeIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.cain.DisputeIdentification1"/>
     </bindings>
     <bindings scd="~tns:DisputeReference1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.DisputeReference1"/>
+      <class ref="org.coderic.iso20022.messages.cain.DisputeReference1"/>
     </bindings>
     <bindings scd="~tns:EncryptedContent5">
-      <class ref="org.coderic.iso20022.externalcodes.cain.EncryptedContent5"/>
+      <class ref="org.coderic.iso20022.messages.cain.EncryptedContent5"/>
     </bindings>
     <bindings scd="~tns:EncryptedData1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.EncryptedData1"/>
+      <class ref="org.coderic.iso20022.messages.cain.EncryptedData1"/>
     </bindings>
     <bindings scd="~tns:EncryptedData1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.cain.EncryptedData1Choice"/>
+      <class ref="org.coderic.iso20022.messages.cain.EncryptedData1Choice"/>
     </bindings>
     <bindings scd="~tns:EncryptedDataElement1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.EncryptedDataElement1"/>
+      <class ref="org.coderic.iso20022.messages.cain.EncryptedDataElement1"/>
     </bindings>
     <bindings scd="~tns:EnvelopedData6">
-      <class ref="org.coderic.iso20022.externalcodes.cain.EnvelopedData6"/>
+      <class ref="org.coderic.iso20022.messages.cain.EnvelopedData6"/>
     </bindings>
     <bindings scd="~tns:Environment29">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Environment29"/>
+      <class ref="org.coderic.iso20022.messages.cain.Environment29"/>
     </bindings>
     <bindings scd="~tns:ErrorDetails2">
-      <class ref="org.coderic.iso20022.externalcodes.cain.ErrorDetails2"/>
+      <class ref="org.coderic.iso20022.messages.cain.ErrorDetails2"/>
     </bindings>
     <bindings scd="~tns:FeeAmount3">
-      <class ref="org.coderic.iso20022.externalcodes.cain.FeeAmount3"/>
+      <class ref="org.coderic.iso20022.messages.cain.FeeAmount3"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification183">
-      <class ref="org.coderic.iso20022.externalcodes.cain.GenericIdentification183"/>
+      <class ref="org.coderic.iso20022.messages.cain.GenericIdentification183"/>
     </bindings>
     <bindings scd="~tns:Header61">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Header61"/>
+      <class ref="org.coderic.iso20022.messages.cain.Header61"/>
     </bindings>
     <bindings scd="~tns:IssuerAndSerialNumber1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.IssuerAndSerialNumber1"/>
+      <class ref="org.coderic.iso20022.messages.cain.IssuerAndSerialNumber1"/>
     </bindings>
     <bindings scd="~tns:Jurisdiction2">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Jurisdiction2"/>
+      <class ref="org.coderic.iso20022.messages.cain.Jurisdiction2"/>
     </bindings>
     <bindings scd="~tns:KEK6">
-      <class ref="org.coderic.iso20022.externalcodes.cain.KEK6"/>
+      <class ref="org.coderic.iso20022.messages.cain.KEK6"/>
     </bindings>
     <bindings scd="~tns:KEKIdentifier2">
-      <class ref="org.coderic.iso20022.externalcodes.cain.KEKIdentifier2"/>
+      <class ref="org.coderic.iso20022.messages.cain.KEKIdentifier2"/>
     </bindings>
     <bindings scd="~tns:KEKIdentifier6">
-      <class ref="org.coderic.iso20022.externalcodes.cain.KEKIdentifier6"/>
+      <class ref="org.coderic.iso20022.messages.cain.KEKIdentifier6"/>
     </bindings>
     <bindings scd="~tns:KeyTransport6">
-      <class ref="org.coderic.iso20022.externalcodes.cain.KeyTransport6"/>
+      <class ref="org.coderic.iso20022.messages.cain.KeyTransport6"/>
     </bindings>
     <bindings scd="~tns:LocalData1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.LocalData1"/>
+      <class ref="org.coderic.iso20022.messages.cain.LocalData1"/>
     </bindings>
     <bindings scd="~tns:MACData1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.MACData1"/>
+      <class ref="org.coderic.iso20022.messages.cain.MACData1"/>
     </bindings>
     <bindings scd="~tns:OriginalTransactionAmount2">
-      <class ref="org.coderic.iso20022.externalcodes.cain.OriginalTransactionAmount2"/>
+      <class ref="org.coderic.iso20022.messages.cain.OriginalTransactionAmount2"/>
     </bindings>
     <bindings scd="~tns:Parameter13">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Parameter13"/>
+      <class ref="org.coderic.iso20022.messages.cain.Parameter13"/>
     </bindings>
     <bindings scd="~tns:Parameter14">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Parameter14"/>
+      <class ref="org.coderic.iso20022.messages.cain.Parameter14"/>
     </bindings>
     <bindings scd="~tns:Parameter7">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Parameter7"/>
+      <class ref="org.coderic.iso20022.messages.cain.Parameter7"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification258">
-      <class ref="org.coderic.iso20022.externalcodes.cain.PartyIdentification258"/>
+      <class ref="org.coderic.iso20022.messages.cain.PartyIdentification258"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification263">
-      <class ref="org.coderic.iso20022.externalcodes.cain.PartyIdentification263"/>
+      <class ref="org.coderic.iso20022.messages.cain.PartyIdentification263"/>
     </bindings>
     <bindings scd="~tns:ProcessingResult15">
-      <class ref="org.coderic.iso20022.externalcodes.cain.ProcessingResult15"/>
+      <class ref="org.coderic.iso20022.messages.cain.ProcessingResult15"/>
     </bindings>
     <bindings scd="~tns:ProtectedData1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.ProtectedData1"/>
+      <class ref="org.coderic.iso20022.messages.cain.ProtectedData1"/>
     </bindings>
     <bindings scd="~tns:Recipient5Choice">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Recipient5Choice"/>
+      <class ref="org.coderic.iso20022.messages.cain.Recipient5Choice"/>
     </bindings>
     <bindings scd="~tns:Recipient7Choice">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Recipient7Choice"/>
+      <class ref="org.coderic.iso20022.messages.cain.Recipient7Choice"/>
     </bindings>
     <bindings scd="~tns:Reconciliation3">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Reconciliation3"/>
+      <class ref="org.coderic.iso20022.messages.cain.Reconciliation3"/>
     </bindings>
     <bindings scd="~tns:RelativeDistinguishedName1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.RelativeDistinguishedName1"/>
+      <class ref="org.coderic.iso20022.messages.cain.RelativeDistinguishedName1"/>
     </bindings>
     <bindings scd="~tns:ResultData7">
-      <class ref="org.coderic.iso20022.externalcodes.cain.ResultData7"/>
+      <class ref="org.coderic.iso20022.messages.cain.ResultData7"/>
     </bindings>
     <bindings scd="~tns:SettlementReportingEntity1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.SettlementReportingEntity1"/>
+      <class ref="org.coderic.iso20022.messages.cain.SettlementReportingEntity1"/>
     </bindings>
     <bindings scd="~tns:SettlementService4">
-      <class ref="org.coderic.iso20022.externalcodes.cain.SettlementService4"/>
+      <class ref="org.coderic.iso20022.messages.cain.SettlementService4"/>
     </bindings>
     <bindings scd="~tns:SettlementServiceDate2">
-      <class ref="org.coderic.iso20022.externalcodes.cain.SettlementServiceDate2"/>
+      <class ref="org.coderic.iso20022.messages.cain.SettlementServiceDate2"/>
     </bindings>
     <bindings scd="~tns:SettlementServiceMode1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.SettlementServiceMode1"/>
+      <class ref="org.coderic.iso20022.messages.cain.SettlementServiceMode1"/>
     </bindings>
     <bindings scd="~tns:SupplementaryData1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.SupplementaryData1"/>
+      <class ref="org.coderic.iso20022.messages.cain.SupplementaryData1"/>
     </bindings>
     <bindings scd="~tns:SupplementaryDataEnvelope1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.SupplementaryDataEnvelope1"/>
+      <class ref="org.coderic.iso20022.messages.cain.SupplementaryDataEnvelope1"/>
     </bindings>
     <bindings scd="~tns:Terminal6">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Terminal6"/>
+      <class ref="org.coderic.iso20022.messages.cain.Terminal6"/>
     </bindings>
     <bindings scd="~tns:TerminalIdentification3">
-      <class ref="org.coderic.iso20022.externalcodes.cain.TerminalIdentification3"/>
+      <class ref="org.coderic.iso20022.messages.cain.TerminalIdentification3"/>
     </bindings>
     <bindings scd="~tns:Token2">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Token2"/>
+      <class ref="org.coderic.iso20022.messages.cain.Token2"/>
     </bindings>
     <bindings scd="~tns:Traceability9">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Traceability9"/>
+      <class ref="org.coderic.iso20022.messages.cain.Traceability9"/>
     </bindings>
     <bindings scd="~tns:Transaction154">
-      <class ref="org.coderic.iso20022.externalcodes.cain.Transaction154"/>
+      <class ref="org.coderic.iso20022.messages.cain.Transaction154"/>
     </bindings>
     <bindings scd="~tns:TransactionAmount1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.TransactionAmount1"/>
+      <class ref="org.coderic.iso20022.messages.cain.TransactionAmount1"/>
     </bindings>
     <bindings scd="~tns:TransactionAmounts2">
-      <class ref="org.coderic.iso20022.externalcodes.cain.TransactionAmounts2"/>
+      <class ref="org.coderic.iso20022.messages.cain.TransactionAmounts2"/>
     </bindings>
     <bindings scd="~tns:TransactionContext8">
-      <class ref="org.coderic.iso20022.externalcodes.cain.TransactionContext8"/>
+      <class ref="org.coderic.iso20022.messages.cain.TransactionContext8"/>
     </bindings>
     <bindings scd="~tns:TransactionIdentification17">
-      <class ref="org.coderic.iso20022.externalcodes.cain.TransactionIdentification17"/>
+      <class ref="org.coderic.iso20022.messages.cain.TransactionIdentification17"/>
     </bindings>
     <bindings scd="~tns:TransactionLifeCycleIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.cain.TransactionLifeCycleIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.cain.TransactionLifeCycleIdentification1"/>
     </bindings>
     <bindings scd="~tns:Algorithm13Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.Algorithm13Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.Algorithm13Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm20Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.Algorithm20Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.Algorithm20Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm23Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.Algorithm23Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.Algorithm23Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm5Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.Algorithm5Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.Algorithm5Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm7Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.Algorithm7Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.Algorithm7Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm8Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.Algorithm8Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.Algorithm8Code"/>
     </bindings>
     <bindings scd="~tns:AttributeType1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.AttributeType1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.AttributeType1Code"/>
     </bindings>
     <bindings scd="~tns:BytePadding1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.BytePadding1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.BytePadding1Code"/>
     </bindings>
     <bindings scd="~tns:ContentType2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.ContentType2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.ContentType2Code"/>
     </bindings>
     <bindings scd="~tns:ContentType3Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.ContentType3Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.ContentType3Code"/>
     </bindings>
     <bindings scd="~tns:CreditDebit3Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.CreditDebit3Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.CreditDebit3Code"/>
     </bindings>
     <bindings scd="~tns:EncryptedDataFormat1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.EncryptedDataFormat1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.EncryptedDataFormat1Code"/>
     </bindings>
     <bindings scd="~tns:EncryptionFormat3Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.EncryptionFormat3Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.EncryptionFormat3Code"/>
     </bindings>
     <bindings scd="~tns:FeeCollectionInitiator1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.FeeCollectionInitiator1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.FeeCollectionInitiator1Code"/>
     </bindings>
     <bindings scd="~tns:MessageError1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.MessageError1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.MessageError1Code"/>
     </bindings>
     <bindings scd="~tns:MessageFunction20Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.MessageFunction20Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.MessageFunction20Code"/>
     </bindings>
     <bindings scd="~tns:OutputFormat4Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.OutputFormat4Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.OutputFormat4Code"/>
     </bindings>
     <bindings scd="~tns:PartyType17Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.PartyType17Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.PartyType17Code"/>
     </bindings>
     <bindings scd="~tns:PartyType18Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.PartyType18Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.PartyType18Code"/>
     </bindings>
     <bindings scd="~tns:PartyType22Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.PartyType22Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.PartyType22Code"/>
     </bindings>
     <bindings scd="~tns:PartyType26Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.PartyType26Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.PartyType26Code"/>
     </bindings>
     <bindings scd="~tns:PartyType32Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.PartyType32Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.PartyType32Code"/>
     </bindings>
     <bindings scd="~tns:PartyType9Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.PartyType9Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.PartyType9Code"/>
     </bindings>
     <bindings scd="~tns:Priority3Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.Priority3Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.Priority3Code"/>
     </bindings>
     <bindings scd="~tns:ProtectionMethod1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.ProtectionMethod1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.ProtectionMethod1Code"/>
     </bindings>
     <bindings scd="~tns:Response8Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.Response8Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.Response8Code"/>
     </bindings>
     <bindings scd="~tns:StorageLocation1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.StorageLocation1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.StorageLocation1Code"/>
     </bindings>
     <bindings scd="~tns:TransactionInitiator1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.TransactionInitiator1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.TransactionInitiator1Code"/>
     </bindings>
     <bindings scd="~tns:TypeOfAmount21Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.TypeOfAmount21Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.TypeOfAmount21Code"/>
     </bindings>
     <bindings scd="~tns:TypeOfAmount22Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.TypeOfAmount22Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.TypeOfAmount22Code"/>
     </bindings>
     <bindings scd="~tns:UserInterface6Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.cain.UserInterface6Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.cain.UserInterface6Code"/>
     </bindings>
   </bindings>
 </bindings>
-

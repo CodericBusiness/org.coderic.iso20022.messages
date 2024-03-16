@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.catm;
+package org.coderic.iso20022.messages.catm;
 
 import javax.xml.datatype.XMLGregorianCalendar;
 import jakarta.xml.bind.annotation.XmlAccessType;

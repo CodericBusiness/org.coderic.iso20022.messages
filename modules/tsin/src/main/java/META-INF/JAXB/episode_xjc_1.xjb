@@ -10,326 +10,325 @@ Generado el: 2024.03.15 a las 08:18:29 PM COT
   -->
   <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:tsin.013.001.01">
     <schemaBindings map="false">
-      <package name="org.coderic.iso20022.externalcodes.tsin"/>
+      <package name="org.coderic.iso20022.messages.tsin"/>
     </schemaBindings>
     <bindings scd="~tns:Document">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.Document"/>
+      <class ref="org.coderic.iso20022.messages.tsin.Document"/>
     </bindings>
     <bindings scd="~tns:AccountIdentification3Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.AccountIdentification3Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.AccountIdentification3Choice"/>
     </bindings>
     <bindings scd="~tns:AccountIdentification4Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.AccountIdentification4Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.AccountIdentification4Choice"/>
     </bindings>
     <bindings scd="~tns:AccountSchemeName1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.AccountSchemeName1Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.AccountSchemeName1Choice"/>
     </bindings>
     <bindings scd="~tns:ActiveCurrencyAndAmount">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.ActiveCurrencyAndAmount"/>
+      <class ref="org.coderic.iso20022.messages.tsin.ActiveCurrencyAndAmount"/>
     </bindings>
     <bindings scd="~tns:Adjustment5">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.Adjustment5"/>
+      <class ref="org.coderic.iso20022.messages.tsin.Adjustment5"/>
     </bindings>
     <bindings scd="~tns:AgreedRate1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.AgreedRate1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.AgreedRate1"/>
     </bindings>
     <bindings scd="~tns:AlgorithmAndDigest1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.AlgorithmAndDigest1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.AlgorithmAndDigest1"/>
     </bindings>
     <bindings scd="~tns:BinaryFile1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.BinaryFile1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.BinaryFile1"/>
     </bindings>
     <bindings scd="~tns:BranchAndFinancialInstitutionIdentification4">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.BranchAndFinancialInstitutionIdentification4"/>
+      <class ref="org.coderic.iso20022.messages.tsin.BranchAndFinancialInstitutionIdentification4"/>
     </bindings>
     <bindings scd="~tns:BranchAndFinancialInstitutionIdentification5">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.BranchAndFinancialInstitutionIdentification5"/>
+      <class ref="org.coderic.iso20022.messages.tsin.BranchAndFinancialInstitutionIdentification5"/>
     </bindings>
     <bindings scd="~tns:BranchData2">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.BranchData2"/>
+      <class ref="org.coderic.iso20022.messages.tsin.BranchData2"/>
     </bindings>
     <bindings scd="~tns:BusinessApplicationHeader1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.BusinessApplicationHeader1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.BusinessApplicationHeader1"/>
     </bindings>
     <bindings scd="~tns:BusinessLetter1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.BusinessLetter1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.BusinessLetter1"/>
     </bindings>
     <bindings scd="~tns:CashAccount16">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.CashAccount16"/>
+      <class ref="org.coderic.iso20022.messages.tsin.CashAccount16"/>
     </bindings>
     <bindings scd="~tns:CashAccount7">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.CashAccount7"/>
+      <class ref="org.coderic.iso20022.messages.tsin.CashAccount7"/>
     </bindings>
     <bindings scd="~tns:CashAccountType2">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.CashAccountType2"/>
+      <class ref="org.coderic.iso20022.messages.tsin.CashAccountType2"/>
     </bindings>
     <bindings scd="~tns:CategoryPurpose1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.CategoryPurpose1Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.CategoryPurpose1Choice"/>
     </bindings>
     <bindings scd="~tns:ClearingSystemIdentification2Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.ClearingSystemIdentification2Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.ClearingSystemIdentification2Choice"/>
     </bindings>
     <bindings scd="~tns:ClearingSystemMemberIdentification2">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.ClearingSystemMemberIdentification2"/>
+      <class ref="org.coderic.iso20022.messages.tsin.ClearingSystemMemberIdentification2"/>
     </bindings>
     <bindings scd="~tns:ContactDetails2">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.ContactDetails2"/>
+      <class ref="org.coderic.iso20022.messages.tsin.ContactDetails2"/>
     </bindings>
     <bindings scd="~tns:Contacts3">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.Contacts3"/>
+      <class ref="org.coderic.iso20022.messages.tsin.Contacts3"/>
     </bindings>
     <bindings scd="~tns:CountrySubdivision1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.CountrySubdivision1Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.CountrySubdivision1Choice"/>
     </bindings>
     <bindings scd="~tns:DateAndPlaceOfBirth">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.DateAndPlaceOfBirth"/>
+      <class ref="org.coderic.iso20022.messages.tsin.DateAndPlaceOfBirth"/>
     </bindings>
     <bindings scd="~tns:EncapsulatedBusinessMessage1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.EncapsulatedBusinessMessage1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.EncapsulatedBusinessMessage1"/>
     </bindings>
     <bindings scd="~tns:FinancialIdentificationSchemeName1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancialIdentificationSchemeName1Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancialIdentificationSchemeName1Choice"/>
     </bindings>
     <bindings scd="~tns:FinancialInstitutionIdentification7">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancialInstitutionIdentification7"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancialInstitutionIdentification7"/>
     </bindings>
     <bindings scd="~tns:FinancialInstitutionIdentification8">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancialInstitutionIdentification8"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancialInstitutionIdentification8"/>
     </bindings>
     <bindings scd="~tns:FinancialItem1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancialItem1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancialItem1"/>
     </bindings>
     <bindings scd="~tns:FinancialItemParameters1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancialItemParameters1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancialItemParameters1"/>
     </bindings>
     <bindings scd="~tns:FinancingAllowedSummary1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancingAllowedSummary1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancingAllowedSummary1"/>
     </bindings>
     <bindings scd="~tns:FinancingDateDetails1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancingDateDetails1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancingDateDetails1"/>
     </bindings>
     <bindings scd="~tns:FinancingInformationAndStatus1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancingInformationAndStatus1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancingInformationAndStatus1"/>
     </bindings>
     <bindings scd="~tns:FinancingItemList1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancingItemList1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancingItemList1"/>
     </bindings>
     <bindings scd="~tns:FinancingNotificationParties1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancingNotificationParties1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancingNotificationParties1"/>
     </bindings>
     <bindings scd="~tns:FinancingRateOrAmountChoice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancingRateOrAmountChoice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancingRateOrAmountChoice"/>
     </bindings>
     <bindings scd="~tns:FinancingResult1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.FinancingResult1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.FinancingResult1"/>
     </bindings>
     <bindings scd="~tns:GenericAccountIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.GenericAccountIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.GenericAccountIdentification1"/>
     </bindings>
     <bindings scd="~tns:GenericFinancialIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.GenericFinancialIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.GenericFinancialIdentification1"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.GenericIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.GenericIdentification1"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification20">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.GenericIdentification20"/>
+      <class ref="org.coderic.iso20022.messages.tsin.GenericIdentification20"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification3">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.GenericIdentification3"/>
+      <class ref="org.coderic.iso20022.messages.tsin.GenericIdentification3"/>
     </bindings>
     <bindings scd="~tns:GenericIdentification4">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.GenericIdentification4"/>
+      <class ref="org.coderic.iso20022.messages.tsin.GenericIdentification4"/>
     </bindings>
     <bindings scd="~tns:GenericOrganisationIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.GenericOrganisationIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.GenericOrganisationIdentification1"/>
     </bindings>
     <bindings scd="~tns:GenericPersonIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.GenericPersonIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.GenericPersonIdentification1"/>
     </bindings>
     <bindings scd="~tns:GovernanceIdentification1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.GovernanceIdentification1Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.GovernanceIdentification1Choice"/>
     </bindings>
     <bindings scd="~tns:GovernanceRules2">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.GovernanceRules2"/>
+      <class ref="org.coderic.iso20022.messages.tsin.GovernanceRules2"/>
     </bindings>
     <bindings scd="~tns:Instalment2">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.Instalment2"/>
+      <class ref="org.coderic.iso20022.messages.tsin.Instalment2"/>
     </bindings>
     <bindings scd="~tns:InstalmentFinancingInformation1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.InstalmentFinancingInformation1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.InstalmentFinancingInformation1"/>
     </bindings>
     <bindings scd="~tns:InvoiceAssignmentAcknowledgementV01">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.InvoiceAssignmentAcknowledgementV01"/>
+      <class ref="org.coderic.iso20022.messages.tsin.InvoiceAssignmentAcknowledgementV01"/>
     </bindings>
     <bindings scd="~tns:InvoiceFinancingDetails1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.InvoiceFinancingDetails1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.InvoiceFinancingDetails1"/>
     </bindings>
     <bindings scd="~tns:InvoiceTotals1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.InvoiceTotals1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.InvoiceTotals1"/>
     </bindings>
     <bindings scd="~tns:LegalOrganisation1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.LegalOrganisation1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.LegalOrganisation1"/>
     </bindings>
     <bindings scd="~tns:LocalInstrument2Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.LocalInstrument2Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.LocalInstrument2Choice"/>
     </bindings>
     <bindings scd="~tns:Location1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.Location1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.Location1"/>
     </bindings>
     <bindings scd="~tns:NameAndAddress5">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.NameAndAddress5"/>
+      <class ref="org.coderic.iso20022.messages.tsin.NameAndAddress5"/>
     </bindings>
     <bindings scd="~tns:OrganisationIdentification2">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.OrganisationIdentification2"/>
+      <class ref="org.coderic.iso20022.messages.tsin.OrganisationIdentification2"/>
     </bindings>
     <bindings scd="~tns:OrganisationIdentification6">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.OrganisationIdentification6"/>
+      <class ref="org.coderic.iso20022.messages.tsin.OrganisationIdentification6"/>
     </bindings>
     <bindings scd="~tns:OrganisationIdentification7">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.OrganisationIdentification7"/>
+      <class ref="org.coderic.iso20022.messages.tsin.OrganisationIdentification7"/>
     </bindings>
     <bindings scd="~tns:OrganisationIdentificationSchemeName1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.OrganisationIdentificationSchemeName1Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.OrganisationIdentificationSchemeName1Choice"/>
     </bindings>
     <bindings scd="~tns:OriginalInvoiceInformation1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.OriginalInvoiceInformation1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.OriginalInvoiceInformation1"/>
     </bindings>
     <bindings scd="~tns:Party10Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.Party10Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.Party10Choice"/>
     </bindings>
     <bindings scd="~tns:Party2Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.Party2Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.Party2Choice"/>
     </bindings>
     <bindings scd="~tns:Party8Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.Party8Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.Party8Choice"/>
     </bindings>
     <bindings scd="~tns:Party9Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.Party9Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.Party9Choice"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification2Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PartyIdentification2Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PartyIdentification2Choice"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification42">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PartyIdentification42"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PartyIdentification42"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification45">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PartyIdentification45"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PartyIdentification45"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification8">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PartyIdentification8"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PartyIdentification8"/>
     </bindings>
     <bindings scd="~tns:PaymentMeans1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PaymentMeans1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PaymentMeans1"/>
     </bindings>
     <bindings scd="~tns:PaymentTypeInformation19">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PaymentTypeInformation19"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PaymentTypeInformation19"/>
     </bindings>
     <bindings scd="~tns:PersonIdentification3">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PersonIdentification3"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PersonIdentification3"/>
     </bindings>
     <bindings scd="~tns:PersonIdentification5">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PersonIdentification5"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PersonIdentification5"/>
     </bindings>
     <bindings scd="~tns:PersonIdentificationSchemeName1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PersonIdentificationSchemeName1Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PersonIdentificationSchemeName1Choice"/>
     </bindings>
     <bindings scd="~tns:PostalAddress1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PostalAddress1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PostalAddress1"/>
     </bindings>
     <bindings scd="~tns:PostalAddress6">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.PostalAddress6"/>
+      <class ref="org.coderic.iso20022.messages.tsin.PostalAddress6"/>
     </bindings>
     <bindings scd="~tns:QualifiedDocumentInformation1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.QualifiedDocumentInformation1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.QualifiedDocumentInformation1"/>
     </bindings>
     <bindings scd="~tns:QualifiedPartyAndXMLSignature1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.QualifiedPartyAndXMLSignature1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.QualifiedPartyAndXMLSignature1"/>
     </bindings>
     <bindings scd="~tns:QualifiedPartyIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.QualifiedPartyIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.QualifiedPartyIdentification1"/>
     </bindings>
     <bindings scd="~tns:ServiceLevel8Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.ServiceLevel8Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.ServiceLevel8Choice"/>
     </bindings>
     <bindings scd="~tns:SignatureEnvelope">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.SignatureEnvelope"/>
+      <class ref="org.coderic.iso20022.messages.tsin.SignatureEnvelope"/>
     </bindings>
     <bindings scd="~tns:SimpleIdentificationInformation2">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.SimpleIdentificationInformation2"/>
+      <class ref="org.coderic.iso20022.messages.tsin.SimpleIdentificationInformation2"/>
     </bindings>
     <bindings scd="~tns:SingleQualifiedPartyIdentification1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.SingleQualifiedPartyIdentification1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.SingleQualifiedPartyIdentification1"/>
     </bindings>
     <bindings scd="~tns:StatusReason4Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.StatusReason4Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.StatusReason4Choice"/>
     </bindings>
     <bindings scd="~tns:StrictPayload">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.StrictPayload"/>
+      <class ref="org.coderic.iso20022.messages.tsin.StrictPayload"/>
     </bindings>
     <bindings scd="~tns:SupplementaryData1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.SupplementaryData1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.SupplementaryData1"/>
     </bindings>
     <bindings scd="~tns:SupplementaryDataEnvelope1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.SupplementaryDataEnvelope1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.SupplementaryDataEnvelope1"/>
     </bindings>
     <bindings scd="~tns:TaxExemptionReasonFormatChoice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.TaxExemptionReasonFormatChoice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.TaxExemptionReasonFormatChoice"/>
     </bindings>
     <bindings scd="~tns:TaxParty3">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.TaxParty3"/>
+      <class ref="org.coderic.iso20022.messages.tsin.TaxParty3"/>
     </bindings>
     <bindings scd="~tns:TradeMarket1Choice">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.TradeMarket1Choice"/>
+      <class ref="org.coderic.iso20022.messages.tsin.TradeMarket1Choice"/>
     </bindings>
     <bindings scd="~tns:TradeParty1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.TradeParty1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.TradeParty1"/>
     </bindings>
     <bindings scd="~tns:ValidationStatusInformation1">
-      <class ref="org.coderic.iso20022.externalcodes.tsin.ValidationStatusInformation1"/>
+      <class ref="org.coderic.iso20022.messages.tsin.ValidationStatusInformation1"/>
     </bindings>
     <bindings scd="~tns:AddressType2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.AddressType2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.AddressType2Code"/>
     </bindings>
     <bindings scd="~tns:AdjustmentDirection1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.AdjustmentDirection1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.AdjustmentDirection1Code"/>
     </bindings>
     <bindings scd="~tns:Algorithm5Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.Algorithm5Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.Algorithm5Code"/>
     </bindings>
     <bindings scd="~tns:CashAccountType4Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.CashAccountType4Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.CashAccountType4Code"/>
     </bindings>
     <bindings scd="~tns:CopyDuplicate1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.CopyDuplicate1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.CopyDuplicate1Code"/>
     </bindings>
     <bindings scd="~tns:CreditDebitCode">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.CreditDebitCode"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.CreditDebitCode"/>
     </bindings>
     <bindings scd="~tns:FinancingStatusReason1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.FinancingStatusReason1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.FinancingStatusReason1Code"/>
     </bindings>
     <bindings scd="~tns:GovernanceIdentification1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.GovernanceIdentification1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.GovernanceIdentification1Code"/>
     </bindings>
     <bindings scd="~tns:NamePrefix1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.NamePrefix1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.NamePrefix1Code"/>
     </bindings>
     <bindings scd="~tns:PaymentMethod4Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.PaymentMethod4Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.PaymentMethod4Code"/>
     </bindings>
     <bindings scd="~tns:Priority2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.Priority2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.Priority2Code"/>
     </bindings>
     <bindings scd="~tns:Priority3Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.Priority3Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.Priority3Code"/>
     </bindings>
     <bindings scd="~tns:RequestStatus1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.RequestStatus1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.RequestStatus1Code"/>
     </bindings>
     <bindings scd="~tns:TechnicalValidationStatus1Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.tsin.TechnicalValidationStatus1Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.tsin.TechnicalValidationStatus1Code"/>
     </bindings>
   </bindings>
 </bindings>
-

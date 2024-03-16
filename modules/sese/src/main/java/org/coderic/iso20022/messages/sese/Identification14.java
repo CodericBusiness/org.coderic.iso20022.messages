@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.sese;
+package org.coderic.iso20022.messages.sese;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;

@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.cafr;
+package org.coderic.iso20022.messages.cafr;
 
 import java.math.BigDecimal;
 import javax.xml.datatype.XMLGregorianCalendar;

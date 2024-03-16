@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.casr;
+package org.coderic.iso20022.messages.casr;
 
 import jakarta.xml.bind.annotation.XmlEnum;
 import jakarta.xml.bind.annotation.XmlType;

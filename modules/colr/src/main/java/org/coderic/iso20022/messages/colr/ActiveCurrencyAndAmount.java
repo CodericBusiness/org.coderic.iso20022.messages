@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.colr;
+package org.coderic.iso20022.messages.colr;
 
 import java.math.BigDecimal;
 import jakarta.xml.bind.annotation.XmlAccessType;

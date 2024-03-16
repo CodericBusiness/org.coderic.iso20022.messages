@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.auth;
+package org.coderic.iso20022.messages.auth;
 
 import jakarta.xml.bind.annotation.XmlEnum;
 import jakarta.xml.bind.annotation.XmlType;

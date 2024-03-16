@@ -10,44 +10,43 @@ Generado el: 2024.03.15 a las 08:18:02 PM COT
   -->
   <bindings scd="x-schema::tns" xmlns:tns="urn:iso:std:iso:20022:tech:xsd:admi.017.001.02">
     <schemaBindings map="false">
-      <package name="org.coderic.iso20022.externalcodes.admi"/>
+      <package name="org.coderic.iso20022.messages.admi"/>
     </schemaBindings>
     <bindings scd="~tns:Document">
-      <class ref="org.coderic.iso20022.externalcodes.admi.Document"/>
+      <class ref="org.coderic.iso20022.messages.admi.Document"/>
     </bindings>
     <bindings scd="~tns:ClearingSystemIdentification2Choice">
-      <class ref="org.coderic.iso20022.externalcodes.admi.ClearingSystemIdentification2Choice"/>
+      <class ref="org.coderic.iso20022.messages.admi.ClearingSystemIdentification2Choice"/>
     </bindings>
     <bindings scd="~tns:NameAndAddress8">
-      <class ref="org.coderic.iso20022.externalcodes.admi.NameAndAddress8"/>
+      <class ref="org.coderic.iso20022.messages.admi.NameAndAddress8"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification242Choice">
-      <class ref="org.coderic.iso20022.externalcodes.admi.PartyIdentification242Choice"/>
+      <class ref="org.coderic.iso20022.messages.admi.PartyIdentification242Choice"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification265">
-      <class ref="org.coderic.iso20022.externalcodes.admi.PartyIdentification265"/>
+      <class ref="org.coderic.iso20022.messages.admi.PartyIdentification265"/>
     </bindings>
     <bindings scd="~tns:PartyIdentification266">
-      <class ref="org.coderic.iso20022.externalcodes.admi.PartyIdentification266"/>
+      <class ref="org.coderic.iso20022.messages.admi.PartyIdentification266"/>
     </bindings>
     <bindings scd="~tns:PostalAddress1">
-      <class ref="org.coderic.iso20022.externalcodes.admi.PostalAddress1"/>
+      <class ref="org.coderic.iso20022.messages.admi.PostalAddress1"/>
     </bindings>
     <bindings scd="~tns:ProcessingRequestV02">
-      <class ref="org.coderic.iso20022.externalcodes.admi.ProcessingRequestV02"/>
+      <class ref="org.coderic.iso20022.messages.admi.ProcessingRequestV02"/>
     </bindings>
     <bindings scd="~tns:RequestDetails30">
-      <class ref="org.coderic.iso20022.externalcodes.admi.RequestDetails30"/>
+      <class ref="org.coderic.iso20022.messages.admi.RequestDetails30"/>
     </bindings>
     <bindings scd="~tns:SupplementaryData1">
-      <class ref="org.coderic.iso20022.externalcodes.admi.SupplementaryData1"/>
+      <class ref="org.coderic.iso20022.messages.admi.SupplementaryData1"/>
     </bindings>
     <bindings scd="~tns:SupplementaryDataEnvelope1">
-      <class ref="org.coderic.iso20022.externalcodes.admi.SupplementaryDataEnvelope1"/>
+      <class ref="org.coderic.iso20022.messages.admi.SupplementaryDataEnvelope1"/>
     </bindings>
     <bindings scd="~tns:AddressType2Code">
-      <typesafeEnumClass ref="org.coderic.iso20022.externalcodes.admi.AddressType2Code"/>
+      <typesafeEnumClass ref="org.coderic.iso20022.messages.admi.AddressType2Code"/>
     </bindings>
   </bindings>
 </bindings>
-

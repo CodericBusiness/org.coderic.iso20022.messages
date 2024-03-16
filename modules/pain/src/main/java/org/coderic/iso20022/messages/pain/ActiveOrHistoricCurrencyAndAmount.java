@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.pain;
+package org.coderic.iso20022.messages.pain;
 
 import java.math.BigDecimal;
 import jakarta.xml.bind.annotation.XmlAccessType;

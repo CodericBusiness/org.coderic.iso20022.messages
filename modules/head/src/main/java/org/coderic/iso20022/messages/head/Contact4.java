@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.head;
+package org.coderic.iso20022.messages.head;
 
 import java.util.ArrayList;
 import java.util.List;

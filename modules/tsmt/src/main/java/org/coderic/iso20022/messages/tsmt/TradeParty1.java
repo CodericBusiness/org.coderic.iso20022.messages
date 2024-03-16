@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.tsmt;
+package org.coderic.iso20022.messages.tsmt;
 
 import java.util.ArrayList;
 import java.util.List;

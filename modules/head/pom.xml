@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.coderic.iso20022.externalcodes</groupId>
+    <groupId>org.coderic.iso20022.messages</groupId>
   <artifactId>core</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -29,7 +29,7 @@
           </execution>
         </executions>
         <configuration>
-          <packageName>org.coderic.iso20022.externalcodes.head</packageName>
+          <packageName>org.coderic.iso20022.messages.head</packageName>
           <sources>
             <source>${project.basedir}/src/main/xsd/head/head.001.001.03.xsd</source>
           </sources>

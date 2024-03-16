@@ -6,7 +6,7 @@
 //
 
 
-package org.coderic.iso20022.externalcodes.fxtr;
+package org.coderic.iso20022.messages.fxtr;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
