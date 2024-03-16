@@ -5,8 +5,8 @@
   <artifactId>core</artifactId>
   <version>0.0.1</version>
   <packaging>pom</packaging>
-  <name>core: ISO 20022 External Codes</name>
-  <description>ISO 20022 External Codes Schema Specification on Jaxb for WS</description>
+  <name>core: ISO 20022 Message Definition</name>
+  <description>ISO 20022 Message Definition Schema Specification on Jaxb for WS</description>
   <url>https://github.com/CodericBusiness/org.coderic.iso20022.messages</url>
   <organization>
     <name>Coderic</name>
