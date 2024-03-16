@@ -42,8 +42,8 @@
             <item name="ISO 20022" href="https://www.iso20022.org/"/>
         </links>
 
-        <menu name="Related links">
-            <item name="Semantic Versioning" href="https://semver.org/lang/en/"/>
+        <menu name="Enlaces relacionados">
+            <item name="Versionado semántico" href="https://semver.org/lang/es/"/>
             <item name="Maven" href="https://maven.apache.org/"/>
             <item name="Java" href="https://www.javainuse.com/"/>
         </menu>
