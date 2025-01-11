@@ -220,9 +220,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
-        <configuration>
-          <locales>en,es</locales>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
