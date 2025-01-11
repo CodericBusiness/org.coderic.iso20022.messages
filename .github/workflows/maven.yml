@@ -8,9 +8,7 @@
 
 name: Java CI with Maven
 
-on:
-  push:
-    branches: [ "master" ]
+on: workflow_dispatch
 concurrency:
   group: github-pages
   cancel-in-progress: false
