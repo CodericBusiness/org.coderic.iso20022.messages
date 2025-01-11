@@ -15,8 +15,8 @@
   <inceptionYear>2024</inceptionYear>
   <licenses>
     <license>
-      <name>The GNU GPL3 license</name>
-      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
