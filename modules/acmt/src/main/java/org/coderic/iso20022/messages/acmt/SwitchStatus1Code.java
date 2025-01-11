@@ -1,8 +1,8 @@
 //
-// Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+// Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.2 
 // Visite https://eclipse-ee4j.github.io/jaxb-ri 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2024.03.15 a las 11:46:45 PM COT 
+// Generado el: 2025.01.11 a las 06:39:09 AM COT 
 //
 
 
