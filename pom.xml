@@ -7,7 +7,7 @@
   <packaging>pom</packaging>
   <name>core: ISO 20022 Message Definition</name>
   <description>ISO 20022 Message Definition Schema Specification on Jaxb for WS</description>
-  <url>https://github.com/CodericBusiness/org.coderic.iso20022.messages</url>
+  <url>https://github.com/CodericDev/org.coderic.iso20022.messages</url>
   <organization>
     <name>Coderic</name>
     <url>https://coderic.org/</url>
@@ -21,17 +21,17 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git://github.com/CodericBusiness/org.coderic.iso20022.messages.git</connection>
-    <developerConnection>scm:git:ssh://github.com:CodericBusiness/org.coderic.iso20022.messages.git</developerConnection>
-    <url>http://github.com/CodericBusiness/org.coderic.iso20022.messages/tree/master</url>
+    <connection>scm:git:https://github.com/CodericDev/org.coderic.iso20022.messages.git</connection>
+    <developerConnection>scm:git:git@github.com:CodericDev/org.coderic.iso20022.messages.git</developerConnection>
+    <url>http://github.com/CodericDev/org.coderic.iso20022.messages/tree/master</url>
   </scm>
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/CodericBusiness/org.coderic.iso20022.messages/actions</url>
+    <url>https://github.com/CodericDev/org.coderic.iso20022.messages/actions</url>
   </ciManagement>
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/CodericBusiness/org.coderic.iso20022.messages/issues</url>
+    <url>https://github.com/CodericDev/org.coderic.iso20022.messages/issues</url>
   </issueManagement>
   <developers>
     <developer>
