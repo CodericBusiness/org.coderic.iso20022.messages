@@ -14,6 +14,7 @@
   <artifactId>secl</artifactId>
   <version>10.1.3</version>
   <name>secl: Securities Clearing</name>
+  <description>This module handles the Securities Clearing as per ISO 20022 standards.</description>
   <build>
     <plugins>
       <plugin>

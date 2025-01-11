@@ -12,6 +12,7 @@
     <artifactId>acmt</artifactId>
     <version>37.1.2</version>
     <name>acmt: Account Management</name>
+    <description>This module handles the Account Management as per ISO 20022 standards.</description>
     <build>
         <plugins>
             <plugin>

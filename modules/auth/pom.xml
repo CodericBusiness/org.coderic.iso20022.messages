@@ -12,7 +12,8 @@
 
     <artifactId>auth</artifactId>
     <version>113.1.1</version>
-    <name>auth: Authorities</name>
+    <name>auth: Authentication</name>
+    <description>This module handles the Authentication as per ISO 20022 standards.</description>
     <build>
         <plugins>
             <plugin>

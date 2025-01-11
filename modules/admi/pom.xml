@@ -14,6 +14,7 @@
     <artifactId>admi</artifactId>
     <version>17.1.2</version>
     <name>admi: Administration</name>
+    <description>This module handles the Administration as per ISO 20022 standards.</description>
     <build>
         <plugins>
             <plugin>

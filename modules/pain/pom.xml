@@ -14,6 +14,7 @@
   <artifactId>pain</artifactId>
   <version>18.1.4</version>
   <name>pain: Payments Initiation</name>
+  <description>This module handles the Payments Initiation as per ISO 20022 standards.</description>
   <build>
     <plugins>
       <plugin>

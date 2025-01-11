@@ -14,8 +14,7 @@
   <artifactId>cain</artifactId>
   <version>28.1.2</version>
   <name>cain: Acquirer to Issuer Card Transactions</name>
-
-
+  <description>This module handles the Acquirer to Issuer Card Transactions as per ISO 20022 standards.</description>
   <build>
     <plugins>
       <plugin>

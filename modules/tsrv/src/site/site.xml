@@ -8,7 +8,7 @@
     </bannerLeft>
     <bannerRight>
         <name>CODERIC</name>
-        <src>https://github.com/coderic.png</src>
+        <src>https://coderic.org/favicon.svg</src>
         <href>https://coderic.org</href>
     </bannerRight>
     <poweredBy>
@@ -28,7 +28,7 @@
             <topBarIcon>
                 <name>Coderic</name>
                 <alt>Coderic</alt>
-                <src>https://github.com/coderic.png</src>
+                <src>https://coderic.org/favicon.svg</src>
                 <href>/index.html</href>
             </topBarIcon>
             <profile>pre-release</profile>
