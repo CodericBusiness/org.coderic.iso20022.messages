@@ -35,19 +35,19 @@
             <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
         </fluidoSkin>
     </custom>
-    <edit>https://github.com/CodericBusiness/org.coderic.iso20022.messages/edit/master/</edit>
+    <edit>https://github.com/CodericDev/org.coderic.iso20022.messages/edit/master/</edit>
     <body>
         <breadcrumbs>
             <item name="${project.artifactId}" href="/index.html"/>
         </breadcrumbs>
         <links>
-            <item name="Español" href="https://business.coderic.org/org.coderic.iso20022.messages/es/"/>
-            <item name="Repository" href="https://github.com/CodericBusiness/org.coderic.iso20022.messages"/>
+            
+            <item name="Repository" href="https://github.com/CodericDev/org.coderic.iso20022.messages"/>
             <item name="Swift" href="https://www.swift.com/"/>
             <item name="ISO 20022" href="https://www.iso20022.org/"/>
         </links>
         <menu name="Related links">
-            <item name="Semantic Versioning" href="https://semver.org/lang/en/"/>
+            <item name="Semantic Versioning" href="https://semver.org"/>
             <item name="Maven" href="https://maven.apache.org/"/>
             <item name="Java" href="https://www.javainuse.com/"/>
         </menu>
