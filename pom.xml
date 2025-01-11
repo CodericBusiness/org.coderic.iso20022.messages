@@ -158,7 +158,7 @@
         <extensions>true</extensions>
         <configuration>
           <publishingServerId>ossrh</publishingServerId>
-          <tokenAuth>true</tokenAuth>
+          <waitForPublishCompletion>true</waitForPublishCompletion>
           <autoPublish>true</autoPublish>
           <waitUntil>published</waitUntil>
         </configuration>
