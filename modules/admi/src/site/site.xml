@@ -5,8 +5,6 @@
          xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
     <bannerLeft>
         <name>${project.name}</name>
-        <!--src>https://maven.apache.org/images/apache-maven-project.png</src-->
-        <href>${project.url}</href>
     </bannerLeft>
     <bannerRight>
         <name>CODERIC</name>
@@ -14,14 +12,14 @@
         <href>https://coderic.org</href>
     </bannerRight>
     <poweredBy>
-        <logo name="Coderic" href="https://coderic.org/"
-              img="https://business.coderic.org/org.coderic.iso20022.messages/images/logo.png" position="center"
-              width="80%" title="Coderic"/>
+        <logo name="ISO 20022" href="https://www.iso20022.org"
+              img="https://www.iso20022.org/themes/custom/iso20022_theme/images/logo-swift-iso20022.svg" position="center"
+              width="80%" title="ISO 20022"/>
     </poweredBy>
     <skin>
         <groupId>org.apache.maven.skins</groupId>
         <artifactId>maven-fluido-skin</artifactId>
-        <version>1.11.1</version>
+        <version>2.0.1</version>
     </skin>
     <custom>
         <fluidoSkin>
