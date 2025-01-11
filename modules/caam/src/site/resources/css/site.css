@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500&amp;display=swap');
+
+body {
+  font-family: 'Red Hat Display', sans;
+}
+#bannerRight a {
+  vertical-align: middle;
+  height: 50px;
+  vertical-align: text-top;
+  background: linear-gradient(180deg,
+    hsl(0, 0%, 58%) 0%,
+    hsl(0, 0%, 80%) 47%,
+    hsl(0, 0%, 38%) 53%,
+    hsl(0, 0%, 58%) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 35px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-family: 'Red Hat Display';
+  letter-spacing:-2px;
+}
+#bannerRight a:hover {
+    text-decoration: none;
+}
+
+#bannerRight img{
+    height: 47px;
+    margin-bottom: 0;
+    vertical-align: text-top;
+}

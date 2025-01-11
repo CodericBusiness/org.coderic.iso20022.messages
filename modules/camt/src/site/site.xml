@@ -9,8 +9,9 @@
         <href>${project.url}</href>
     </bannerLeft>
     <bannerRight>
-        <src>https://coderic.org/assets/img/logo.png</src>
-        <href>https://coderic.org/</href>
+        <name>CODERIC</name>
+        <src>https://github.com/coderic.png</src>
+        <href>https://coderic.org</href>
     </bannerRight>
     <poweredBy>
         <logo name="Coderic" href="https://coderic.org/"
@@ -26,7 +27,14 @@
         <fluidoSkin>
             <profile>pre-release</profile>
             <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
-
+            <topBarIcon>
+                <name>Coderic</name>
+                <alt>Coderic</alt>
+                <src>https://github.com/coderic.png</src>
+                <href>/index.html</href>
+            </topBarIcon>
+            <profile>pre-release</profile>
+            <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
         </fluidoSkin>
     </custom>
     <edit>https://github.com/CodericBusiness/org.coderic.iso20022.messages/edit/master/</edit>
