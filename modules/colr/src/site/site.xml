@@ -35,14 +35,14 @@
             <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
         </fluidoSkin>
     </custom>
-    <edit>https://github.com/CodericDev/org.coderic.iso20022.messages/edit/master/</edit>
+    <edit>https://github.com/Coderic/org.coderic.iso20022.messages/edit/master/</edit>
     <body>
         <breadcrumbs>
             <item name="${project.artifactId}" href="/index.html"/>
         </breadcrumbs>
         <links>
             
-            <item name="Repository" href="https://github.com/CodericDev/org.coderic.iso20022.messages"/>
+            <item name="Repository" href="https://github.com/Coderic/org.coderic.iso20022.messages"/>
             <item name="Swift" href="https://www.swift.com/"/>
             <item name="ISO 20022" href="https://www.iso20022.org/"/>
         </links>
